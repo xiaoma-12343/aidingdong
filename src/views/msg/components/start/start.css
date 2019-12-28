@@ -1,0 +1,54 @@
+#start .head-back {
+  background: #3D3C41;
+}
+#start .head-back .head-title {
+  color: #fff;
+  font-weight: 400;
+}
+#start .start {
+  padding-top: 2.75rem;
+  padding-left: .9375rem;
+}
+#start .start li {
+  color: #999999;
+  padding-right: .9375rem;
+  height: 4.3125rem;
+  border-bottom: .0625rem solid #eee;
+  font-size: .75rem;
+}
+#start .start li div img {
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border-radius: 50%;
+  margin-right: .625rem;
+}
+#start .start li div p:first-child {
+  font-size: .875rem;
+  color: #000000;
+}
+#start .start li div p:nth-child(2) {
+  font-size: .625rem;
+  color: #FFFFFF;
+  background: #9EE5FD;
+  width: 4.4375rem;
+  height: .9375rem;
+  border-radius: .46875rem;
+  text-align: center;
+  line-height: .9375rem;
+  margin-top: .3125rem;
+  margin-bottom: .4375rem;
+}
+#start .start li .guanzhu {
+  display: block;
+  width: 4.375rem;
+  height: 1.875rem;
+  color: #fff;
+  background: #0EAF0A;
+  text-align: center;
+  line-height: 1.875rem;
+  font-size: .75rem;
+  border-radius: .125rem;
+}
+#start .start li:last-child {
+  border: none;
+}

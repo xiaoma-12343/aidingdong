@@ -1,0 +1,71 @@
+#store input {
+  box-sizing: border-box;
+}
+#store .store {
+  margin-top: 2.75rem;
+}
+#store .store .store-search {
+  background: #F2F2F2;
+  padding: 0 1.0625rem;
+  height: 3.6875rem;
+  color: #9B9B9B;
+  position: fixed;
+  width: 100%;
+  top: 2.75rem;
+}
+#store .store .store-search span:last-child {
+  font-size: .875rem;
+}
+#store .store .store-search .search-input {
+  position: relative;
+}
+#store .store .store-search .search-input input {
+  width: 14.875rem;
+  height: 2.25rem;
+  border: none;
+  outline: none;
+  border-radius: 1.125rem;
+  font-size: .875rem;
+  padding-left: 2.1875rem;
+}
+#store .store .store-search .search-input .icon-search {
+  display: inline-block;
+  width: .875rem;
+  height: .875rem;
+  background: url('../../assets/icon/icon-search.png') no-repeat center / 100%;
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#store .store .store-list {
+  padding: 0 .875rem;
+  margin-top: 6.1875rem;
+}
+#store .store .store-list li {
+  border-bottom: .0625rem solid #EEEEEE;
+  padding: 1rem 0;
+}
+#store .store .store-list li .list-img {
+  width: 5.625rem;
+  height: 5.625rem;
+  border-radius: .375rem;
+}
+#store .store .store-list li .list-img img {
+  width: 100%;
+  height: 100%;
+}
+#store .store .store-list li .list-content {
+  color: #333333;
+  font-size: .9375rem;
+}
+#store .store .store-list li .list-content p:last-child {
+  margin-top: .25rem;
+  width: 11.25rem;
+  font-size: .8125rem;
+  color: #999;
+}
+#store .store .store-list li > p {
+  font-size: .8125rem;
+  color: #999;
+}

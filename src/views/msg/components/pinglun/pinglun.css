@@ -1,0 +1,49 @@
+#pinglun .head-back {
+  background: #3D3C41;
+}
+#pinglun .head-back .head-title {
+  color: #fff;
+  font-weight: 400;
+}
+#pinglun .pinglun {
+  margin-top: 2.75rem;
+  padding: 0 .875rem;
+}
+#pinglun .pinglun li {
+  padding: .875rem 0;
+  border-bottom: .0625rem solid #eee;
+}
+#pinglun .pinglun li .userinfos .head img {
+  margin-right: .4375rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+}
+#pinglun .pinglun li .userinfos .head div {
+  font-size: .625rem;
+  color: #999999;
+}
+#pinglun .pinglun li .userinfos .head div p {
+  color: #000000;
+  font-size: .875rem;
+}
+#pinglun .pinglun li .userinfos .gz,
+#pinglun .pinglun li .userinfos .ygz {
+  background: #0EAF0A;
+  width: 4.375rem;
+  height: 1.875rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.875rem;
+  font-size: .75rem;
+  border-radius: .125rem;
+}
+#pinglun .pinglun li .userinfos .ygz {
+  background: #F8F8FA;
+  color: #0EAF0A;
+}
+#pinglun .pinglun li .content {
+  color: #666666;
+  font-size: 1rem;
+  margin-top: 1rem;
+}

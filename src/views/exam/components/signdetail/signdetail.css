@@ -1,0 +1,112 @@
+#sign-detail {
+  background: #F5F5F5;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+#sign-detail .sign-detail {
+  padding-top: 3.0625rem;
+}
+#sign-detail .sign-detail .sign-signinfo {
+  background: #fff;
+}
+#sign-detail .sign-detail .sign-signinfo p {
+  padding: 0 .875rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  font-size: .9375rem;
+  color: #9B9B9B;
+  border-bottom: .0625rem solid  #f5f5f5;
+}
+#sign-detail .sign-detail .sign-signinfo .sign-infolist {
+  padding: 1.0625rem .875rem;
+}
+#sign-detail .sign-detail .sign-signinfo .sign-infolist > div {
+  display: flex;
+  justify-content: space-between;
+  color: #999999;
+  font-size: .875rem;
+  margin-bottom: .5rem;
+}
+#sign-detail .sign-detail .sign-signinfo .sign-infolist > div span:last-child {
+  color: #333333;
+}
+#sign-detail .sign-detail .sign-money {
+  margin-top: 2.6875rem;
+  background: #fff;
+  padding: 1.8125rem  0;
+}
+#sign-detail .sign-detail .sign-money p,
+#sign-detail .sign-detail .sign-money .sign-howmoney,
+#sign-detail .sign-detail .sign-money .sign-total {
+  padding: 0 .875rem;
+}
+#sign-detail .sign-detail .sign-money p {
+  font-size: .875rem;
+  color: #333333;
+}
+#sign-detail .sign-detail .sign-money .sign-howmoney {
+  height: 2.1875rem;
+  border-bottom: .0625rem solid #eee;
+}
+#sign-detail .sign-detail .sign-money .sign-howmoney span {
+  font-size: .875rem;
+  color: #999;
+}
+#sign-detail .sign-detail .sign-money .sign-howmoney span:last-child {
+  color: #333333;
+}
+#sign-detail .sign-detail .sign-money .sign-total {
+  height: 2.9375rem;
+  border-bottom: 3px dotted #eee;
+  margin-bottom: 2.5rem;
+}
+#sign-detail .sign-detail .sign-money .sign-total span {
+  font-size: .875rem;
+  color: #312F32;
+}
+#sign-detail .sign-detail .sign-money .sign-total span:last-child {
+  font-size: 1.125rem;
+  color: #333;
+  font-weight: 600;
+}
+#sign-detail .sign-detail .sign-money .sign-pay {
+  text-align: center;
+}
+#sign-detail .sign-detail .sign-money .sign-pay p {
+  font-size: .875rem;
+  color: #999999;
+  margin-bottom: .5rem;
+}
+#sign-detail .sign-detail .sign-money .sign-pay ul {
+  margin-bottom: 4.375rem;
+  padding: 0 .875rem;
+}
+#sign-detail .sign-detail .sign-money .sign-pay ul .active {
+  border: 1px solid #00C062;
+}
+#sign-detail .sign-detail .sign-money .sign-pay ul li {
+  border-radius: .125rem;
+  background: #F9F9F9 url('../../../../assets/icon/signdetail//icon-jinbi.png') no-repeat center center;
+  width: 6.8125rem;
+  height: 6.625rem;
+  text-align: center;
+  padding: .9375rem 0;
+}
+#sign-detail .sign-detail .sign-money .sign-pay ul li p:nth-child(2) {
+  font-size: .75rem;
+  margin-top: 2.8125rem;
+}
+#sign-detail .sign-detail .sign-money .sign-pay ul li:nth-child(2) {
+  background-image: url('../../../../assets/icon/signdetail/icon-wechat.png');
+}
+#sign-detail .sign-detail .sign-money .sign-pay ul li:last-child {
+  background-image: url('../../../../assets/icon/signdetail/icon-alipay.png');
+}
+#sign-detail .sign-detail .sign-money .sign-pay .van-button {
+  border-radius: .125rem;
+  width: 21.4375rem;
+  height: 2.9375rem;
+}

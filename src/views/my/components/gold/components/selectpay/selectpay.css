@@ -1,0 +1,50 @@
+#selectpay .selectpay {
+  padding: 2.75rem 0  0 .875rem;
+}
+#selectpay .selectpay ul li {
+  height: 3.25rem;
+  padding-right: .875rem;
+  border-bottom: .0625rem solid #eee;
+}
+#selectpay .selectpay ul li div:first-child {
+  color: #333;
+}
+#selectpay .selectpay ul li div:first-child img {
+  width: 1.8125rem;
+  height: 1.8125rem;
+  margin-right: .8125rem;
+}
+#selectpay .selectpay ul li div:first-child span {
+  font-size: .8125rem;
+  color: #333333;
+}
+#selectpay .selectpay ul li div:last-child {
+  width: .75rem;
+  height: .75rem;
+  border: .0625rem solid #eee;
+  border-radius: 50%;
+  position: relative;
+  flex-shrink: 0;
+}
+#selectpay .selectpay ul li .active::after {
+  content: "";
+  display: block;
+  background: #0EAF0A;
+  width: .5625rem;
+  height: .5625rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#selectpay .selectpay .submit {
+  width: 21.6875rem;
+  height: 2.9375rem;
+  color: #fff;
+  text-align: center;
+  line-height: 2.9375rem;
+  background: #0EAF0A;
+  position: fixed;
+  bottom: 8.375rem;
+}

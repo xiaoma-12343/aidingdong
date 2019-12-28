@@ -1,0 +1,119 @@
+#coach {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #F0F0F1;
+}
+#coach .head-back .head-title {
+  font-weight: 400;
+}
+#coach .coach {
+  padding-top: 3.0625rem;
+  padding-left: .875rem;
+  background: #fff;
+}
+#coach .coach .coach-form .form-input {
+  border-bottom: .0625rem solid #F2F2F2;
+  height: 3.25rem;
+  padding-right: 1rem;
+}
+#coach .coach .coach-form .form-input > span {
+  padding-right: .625rem;
+  color: #333333;
+}
+#coach .coach .coach-form .form-input .form-inp {
+  flex: 1;
+}
+#coach .coach .coach-form .form-input .form-inp input {
+  width: 15.9375rem;
+  border: none;
+  height: 1.5rem;
+  line-height: 1.5rem;
+}
+#coach .coach-goodat,
+#coach .coach-upload {
+  background: #fff;
+  padding: .875rem .9375rem;
+  margin-top: .3125rem;
+}
+#coach .coach-upload {
+  font-size: 1.0625rem;
+  color: #333;
+}
+#coach .coach-upload .coach-upimg {
+  margin-top: 1.6875rem;
+}
+#coach .coach-upload .coach-upimg li {
+  margin-right: .1875rem;
+  position: relative;
+}
+#coach .coach-upload .coach-upimg li .icon-delete {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background: #333;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1rem;
+  color: #fff;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+#coach .coach-upload .coach-upimg li img {
+  width: 5.0625rem;
+  height: 5.0625rem;
+  border-radius: 0.3125rem;
+}
+#coach .coach-upload .coach-upimg li .van-uploader {
+  background: #D1D1D1;
+  width: 5.0625rem;
+  height: 5.0625rem;
+  text-align: center;
+  line-height: 5.0625rem;
+  border-radius: .3125rem;
+}
+#coach .coach-upload .coach-upimg li:nth-child(4n) {
+  margin-right: 0;
+}
+#coach .coach-goodat,
+#coach .coach-evaluation {
+  height: 10.6875rem;
+  background: #fff;
+  padding: .875rem .9375rem;
+}
+#coach .coach-goodat .van-field,
+#coach .coach-evaluation .van-field {
+  margin-top: 1.6875rem;
+  border: 1px solid #D1D1D1;
+  border-radius: .125rem;
+}
+#coach .coach-subimt {
+  text-align: center;
+  margin-top: 1.6875rem;
+  margin-bottom: .625rem;
+}
+#coach .coach-subimt .van-button {
+  background: #0EAF0A;
+  width: 21.5625rem;
+  height: 2.9375rem;
+}
+#coach .labelShows li {
+  height: 3.125rem;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+  text-align: center;
+  line-height: 3.125rem;
+}
+#coach .labelShows li:last-child {
+  border-top: .125rem solid #eee;
+  font-weight: bold;
+}
+#coach .labelShows li:last-child div {
+  flex: 1;
+}
+#coach .labelShows .active {
+  color: #0EAF0A;
+}

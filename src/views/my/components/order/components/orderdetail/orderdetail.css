@@ -1,0 +1,111 @@
+#order-detail {
+  height: 100%;
+  background: #f4f4f4;
+}
+#order-detail .head-back .head-title {
+  font-weight: 400;
+}
+#order-detail .order-detail {
+  padding-top: 3.125rem;
+}
+#order-detail .order-detail .order-info {
+  background: #fff;
+  height: 5.9375rem;
+  padding: .5625rem .875rem;
+  margin-bottom: .3125rem;
+}
+#order-detail .order-detail .order-info .order-infomation .order-image {
+  width: 4.8125rem;
+  height: 4.8125rem;
+  border: 1px solid red;
+  margin-right: .625rem;
+}
+#order-detail .order-detail .order-info .order-infomation .order-name {
+  font-size: .6875rem;
+  color: #999;
+}
+#order-detail .order-detail .order-info .order-infomation .order-name p {
+  margin-top: .375rem;
+  margin-bottom: 1.625rem;
+  font-size: .75rem;
+  color: #333;
+  width: 8.25rem;
+}
+#order-detail .order-detail .order-info .order-money {
+  text-align: right;
+  font-size: .75rem;
+}
+#order-detail .order-detail .order-info .order-money p {
+  font-size: .875rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: .6875rem;
+}
+#order-detail .order-detail .order-number {
+  padding-left: .875rem;
+  background: #fff;
+  margin-bottom: .3125rem;
+}
+#order-detail .order-detail .order-number li {
+  padding-right: .875rem;
+  border-bottom: .0625rem solid #eee;
+  height: 2.4375rem;
+  padding-left: 1.625rem;
+  background: url('../../../../../../assets/icon/order/icon-qr.png') no-repeat left;
+  color: #999;
+  font-size: .75rem;
+  line-height: 2.4375rem;
+}
+#order-detail .order-detail .order-number li img {
+  width: 1.6875rem;
+  flex-shrink: 0;
+}
+#order-detail .order-detail .product-info {
+  padding: 1.25rem .875rem 1.4375rem;
+  background: #fff;
+}
+#order-detail .order-detail .product-info > p {
+  font-size: .875rem;
+  color: #0A0A0A;
+  font-weight: bold;
+}
+#order-detail .order-detail .product-info ul {
+  border-bottom: .0625rem solid #eee;
+  margin-top: 1.25rem;
+}
+#order-detail .order-detail .product-info ul li {
+  display: flex;
+  justify-content: space-between;
+  font-size: .6875rem;
+  color: #999;
+  margin-bottom: .75rem;
+}
+#order-detail .order-detail .product-info ul:last-child {
+  border: none;
+}
+#order-detail .order-detail .product-info ul:last-child li:last-child {
+  font-weight: bold;
+  font-size: .875rem;
+  margin-bottom: 0;
+  color: #0A0A0A;
+}
+#order-detail .order-detail .product-info ul:last-child li:last-child span:last-child {
+  color: #0EAF0A;
+}
+#order-detail .order-detail .order-button {
+  height: 2.9375rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+#order-detail .order-detail .order-button div {
+  flex: 1;
+  background: #0EAF0A;
+  line-height: 2.9375rem;
+  text-align: center;
+  color: #fff;
+}
+#order-detail .order-detail .order-button div:first-child {
+  background: #fff;
+  color: #999999;
+}

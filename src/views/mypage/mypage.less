@@ -1,0 +1,146 @@
+#my-pages{
+    .head-back{
+        background: transparent;
+        border: none;
+    }
+
+    .my-pages{
+        // 背景封面图
+        .topbgc{
+            height: 6.9375rem;
+            // border: 1px solid red;
+            background: rgba(0,0,0,0.53);
+            overflow: hidden;
+            position: relative;
+            // z-index: -1;
+            img{
+                position: absolute;
+                z-index: -1;
+                width: 100%;
+            }
+        }
+        // 头像 用户名 性别 地区 关注
+        .users-info{
+            padding: 0 .875rem;
+            height: 50px;
+            img{
+                width: 3.75rem;
+                height: 3.75rem;
+                flex-shrink: 0;
+                // border: 1px solid red;
+                border-radius: 50%;
+                margin-right: .625rem;
+                position: relative;
+                z-index: 3;
+            }
+            .headinfo{
+                flex-shrink: 0;
+                font-size: .75rem;
+                color: #5C5C5C;
+                p{
+                    font-weight: bold;
+                    color: #312F32;
+                    font-size: 1.0625rem;
+                    margin-bottom: .5rem;
+                }
+                div{
+
+                }
+
+            }
+            .guanzhu{
+                // width: 3rem;
+                padding: 0 .3125rem;
+                height: 1.375rem;
+                background: #0EAF0A;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                // text-align: center;
+                // line-height: 1.375rem;
+                font-size: .8125rem;
+                border-radius: .75rem;
+            }
+        }
+        // 获赞 关注 粉丝
+        .dataNum,.zpDataNum{
+            
+            padding: .6875rem 7.3125rem .6875rem 2.125rem;
+            li{
+                font-size: .875rem;
+                color: #9B9B9B;
+                span:last-child{
+                    color: #312F32;
+                    font-weight: bold;
+                    margin-left: .3125rem;
+                }
+            }
+        }
+        .send{
+            color: #333;
+            width: 100%;
+            border-top: .3125rem solid #eee;
+            height: 3.875rem;
+            font-size: .875rem;
+            .icon-bianji1{
+                color: #0EAF0A;
+                margin-right: .625rem;
+                font-size: 1.25rem;
+            }
+        }
+        .zpDataNum{
+            padding: 0 3.0625rem;
+            li{
+                position: relative;
+            }
+            .active::after{
+                content: "";
+                display: block;
+                position: absolute;
+                width: 1.375rem;
+                height: .1875rem;
+                border-radius: .09375rem;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: -0.4375rem;
+                background: #0EAF0A;
+            }
+        }
+        .zuopinlist{
+            margin-top: 1.25rem;
+            // overflow-y: auto;
+            padding: 0 .875rem 0;
+            // height: 30rem;
+            li{
+                width: 10.5rem;
+                // border: 1px solid red;
+                height: 10.5rem;
+                margin-bottom: .75rem;
+                border-radius: .375rem;
+                position: relative;
+                overflow: hidden;
+                > img{
+                    width: 100%;
+                    height: 100%;
+                }
+                > div{
+                    font-size: .75rem;
+                    color: #fff;
+                    position: absolute;
+                    bottom: .625rem;
+                    left: .6875rem;
+                    img{
+                        width: 1.375rem;
+                        height: 1.375rem;
+                        border-radius: 50%;
+                        margin-right: .25rem;
+                    }
+                }
+            }
+        }
+        .topiclist{
+
+        }
+    }
+}

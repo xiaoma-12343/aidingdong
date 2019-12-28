@@ -1,0 +1,92 @@
+#vip{
+    .head-back{
+        background: #333333;
+        border: none;
+        .head-title{
+            color: #fff;
+            font-weight: 400;
+        }
+    }
+    .vip{
+        margin-top: 2.75rem;
+        .vip-cardbg{
+            text-align: center;
+            line-height: 6.25rem;
+            height: 6.25rem;
+            background: #333333;
+            position: relative;
+            margin-bottom: 7.4375rem;
+            .vip-card{
+                color: #fff;
+                width: 21.6875rem;
+                height: 11.0625rem;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                border-radius: .375rem;
+                background-image: linear-gradient(
+                    to right,
+                    #37C86D,
+                    #11998E
+                );
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .vip-lists{
+            padding: 0 .875rem;
+            >p{
+                padding-left: .5rem;
+                font-size: .875rem;
+                border-left: .1875rem solid #30C074;
+                height: 1rem;
+                margin-bottom: 1.8125rem;
+            }
+            ul{
+                padding: 0 .625rem;
+                li{
+                    // width: 3rem;
+                    // flex-shrink: 0;
+                    // text-align: center;
+                    // margin-bottom: 1.8125rem;
+                    // margin-right: 2.75rem;
+                    margin-bottom: 1.4375rem;
+                    div{
+                        // margin-left: .6875rem;
+                        margin-bottom: .625rem;
+                        img{
+                            margin-right: .6875rem;
+                            width: 1.875rem;
+                            height: 1.875rem;
+                            flex-shrink: 0;
+                        }
+                        p{
+                            line-height: 1.875rem;
+                        }
+                        
+                    }
+                    span{
+                        font-size: .75rem;
+                        color: #666;
+                        letter-spacing: .0625rem;
+                    }
+                    
+                }
+                li:nth-child(4n){
+                    margin-right: 0;
+                }
+            }
+        }
+        .vip-check{
+            text-align: center;
+            // margin-top: 10.5rem;
+            .van-button{
+                background: #0EAF0A;
+                width: 21.5625rem;
+                height: 2.9375rem;
+            }
+        }
+    }
+}

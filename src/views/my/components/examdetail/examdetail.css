@@ -1,0 +1,125 @@
+#exam-detail {
+  height: 100%;
+  background: #F5F5F5;
+}
+#exam-detail .head-back .head-title {
+  font-weight: 400;
+}
+#exam-detail .exam-detail {
+  height: 100%;
+  padding: 3.375rem .875rem;
+}
+#exam-detail .exam-detail .exam-bg {
+  overflow: hidden;
+  padding-bottom: .625rem;
+  text-align: center;
+  background: url('../../../../assets/bgc.png') no-repeat center / 100%;
+}
+#exam-detail .exam-detail .exam-bg .exam-logo {
+  width: 5.0625rem;
+  height: 5.0625rem;
+  background: #0EAF0A;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 1.4375rem;
+}
+#exam-detail .exam-detail .exam-bg .exam-logo img {
+  width: 2.9375rem;
+  height: 3.125rem;
+}
+#exam-detail .exam-detail .exam-bg .exam-status {
+  margin-top: .9375rem;
+  color: #0EAF0A;
+  font-size: .875rem;
+}
+#exam-detail .exam-detail .exam-bg .exam-examinfo {
+  margin-top: 3.4375rem;
+  font-size: .875rem;
+  color: #333333;
+}
+#exam-detail .exam-detail .exam-bg .exam-examinfo p:last-child {
+  margin-top: 1.0625rem;
+  font-size: 1rem;
+}
+#exam-detail .exam-detail .exam-bg .exam-student {
+  text-align: left;
+  padding: 0 1.875rem;
+  margin-top: 3.3125rem;
+  color: #333333;
+}
+#exam-detail .exam-detail .exam-bg .exam-student div {
+  font-size: .75rem;
+}
+#exam-detail .exam-detail .exam-bg .exam-student div p:first-child {
+  margin-bottom: 1.1875rem;
+}
+#exam-detail .exam-detail .exam-bg .exam-number {
+  padding: 0 1.6875rem;
+  margin-top: 2.1875rem;
+  color: #666666;
+  font-size: .75rem;
+}
+#exam-detail .exam-detail .exam-bg .exam-prompt {
+  margin-top: 2.25rem;
+  text-align: center;
+}
+#exam-detail .exam-detail .exam-bg .exam-prompt > p {
+  font-size: .75rem;
+  color: #999999;
+}
+#exam-detail .exam-detail .exam-bg .exam-prompt > p:nth-child(2) {
+  margin-top: .75rem;
+  margin-bottom: 0.9375rem;
+}
+#exam-detail .exam-detail .exam-bg .van-button {
+  width: 16.75rem;
+  height: 2.25rem;
+  background: #0EAF0A;
+  line-height: 2.25rem;
+  border-radius: .125rem;
+}
+#exam-detail .exam-detail .exam-bg .exam-wait {
+  margin-top: 1.25rem;
+}
+#exam-detail .exam-detail .exam-bg .exam-public {
+  margin-top: 2.1875rem;
+  font-size: 1.875rem;
+}
+#exam-detail .exam-detail .exam-bg .exam-public > p {
+  color: #333;
+  margin-bottom: 1.125rem;
+}
+#exam-detail .exam-detail .exam-bg .exam-public .van-button:last-child {
+  margin-top: .625rem;
+  background: #fff;
+  border-style: #0EAF0A;
+}
+#exam-detail .exam-detail .exam-bg .van-popup {
+  border-radius: .375rem;
+}
+#exam-detail .exam-detail .exam-bg .van-popup .goExam {
+  text-align: center;
+  width: 13.0625rem;
+  height: 7.5625rem;
+  background: #fff;
+  padding: .9375rem;
+}
+#exam-detail .exam-detail .exam-bg .van-popup .goExam p {
+  font-size: 1.0625rem;
+  color: #030303;
+}
+#exam-detail .exam-detail .exam-bg .van-popup .goExam p:nth-child(2) {
+  margin: .625rem 0;
+  font-size: .875rem;
+  color: #666666;
+}
+#exam-detail .exam-detail .exam-bg .van-popup .goExam p:nth-child(2) span {
+  color: #F0010C;
+}
+#exam-detail .exam-detail .exam-bg .van-popup .goExam .van-button {
+  width: 11.0625rem;
+  height: 1.875rem;
+  background: #fff;
+  line-height: 1.875rem;
+  border-color: #0EAF0A;
+}

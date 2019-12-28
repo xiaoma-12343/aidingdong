@@ -1,0 +1,62 @@
+#eventdetails .head-back .head-title {
+  font-weight: 400;
+}
+#eventdetails .event-d {
+  padding-top: 2.75rem;
+}
+#eventdetails .event-d .top {
+  color: #0EAF0A;
+  font-weight: 500;
+  padding: 0 .875rem;
+  border-bottom: .3125rem solid #eee;
+  height: 3.125rem;
+}
+#eventdetails .event-d .top img {
+  width: 2.0625rem;
+  height: 2.0625rem;
+  vertical-align: middle;
+}
+#eventdetails .event-d .signinfo {
+  padding-left: .875rem;
+}
+#eventdetails .event-d .signinfo .sign-title {
+  border-bottom: .0625rem solid #eee;
+  font-weight: 500;
+  font-size: .875rem;
+  height: 2.6875rem;
+  line-height: 2.6875rem;
+  margin-bottom: .9375rem;
+}
+#eventdetails .event-d .signinfo .event-info {
+  font-size: .75rem;
+  color: #999;
+}
+#eventdetails .event-d .signinfo .event-info > div {
+  margin-bottom: 1.625rem;
+}
+#eventdetails .event-d .signinfo .event-info .event-name {
+  font-weight: bold;
+  color: #000;
+  margin-bottom: .5rem;
+}
+#eventdetails .event-d .signinfo .event-info ul {
+  font-size: .75rem;
+  color: #999;
+}
+#eventdetails .event-d .signinfo .event-info ul li {
+  margin-bottom: .8125rem;
+  padding-right: .875rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#eventdetails .event-d .signinfo .event-info ul li:nth-child(3),
+#eventdetails .event-d .signinfo .event-info ul li:nth-child(5) {
+  border-bottom: 1px solid #eee;
+  padding-bottom: .8125rem;
+}
+#eventdetails .event-d .signinfo .event-info ul li:nth-child(6),
+#eventdetails .event-d .signinfo .event-info ul li:last-child {
+  font-weight: bold;
+  color: #666;
+}

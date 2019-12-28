@@ -1,0 +1,153 @@
+#coach{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #F0F0F1;
+    .head-back{
+        .head-title{
+            font-weight: 400;
+        }
+    }
+    // 表单
+    .coach{
+        padding-top: 3.0625rem;
+        padding-left: .875rem;
+        background: #fff;
+        .coach-form{
+            .form-input{
+                border-bottom: .0625rem solid #F2F2F2;
+                height: 3.25rem;
+                padding-right: 1rem;
+                > span{
+                    // flex: 1;
+                    padding-right: .625rem;
+                    // font-size: 1.0625rem;
+                    // font-size: .875rem;
+                    color: #333333;
+                }
+                .form-inp{
+                    flex: 1;
+                    input{
+                        width: 10rem;
+                        border: none;
+                        height: 1.5rem;
+                        line-height: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+    .coach-goodat,.coach-upload{
+        background: #fff;
+        padding: .875rem .9375rem;
+        margin-top: .3125rem;
+
+
+    }
+    // 证件上传
+    .coach-upload{
+        // height: 9.375rem;
+        font-size: 1.0625rem;
+        color: #333;
+        p{
+          span{
+            // font-size:.24rem; 
+            display: block;
+            color: #999;
+            font-size: .875rem;
+            padding-top:.2rem;
+            line-height: 1.25rem;
+          }
+        }
+        .coach-upimg{
+            // height: 5.0625rem;
+            margin-top: 1.6875rem;
+            li{
+                // border: 1px solid red;
+                // margin-right: .1875rem;
+                margin-right: 0.8rem;
+                // margin-bottom: .1875rem;
+                position: relative;
+                .icon-delete{
+                    display: inline-block;
+                    width: 1rem;
+                    height: 1rem;
+                    background: #333;
+                    border-radius: 50%;
+                    text-align: center;
+                    line-height: 1rem;
+                    color: #fff;
+                    position: absolute;
+                    top: -8px;
+                    right: -8px;
+                }
+                img{
+                    width: 5.0625rem;
+                    height: 5.0625rem;
+                    border-radius:0.3125rem;
+                }
+                .van-uploader{
+                    background: #D1D1D1;
+                    width: 5.0625rem;
+                    height: 5.0625rem;
+                    text-align: center;
+                    line-height: 5.0625rem;
+                    border-radius: .3125rem;
+                }
+            }
+            li:nth-child(4n){
+                margin-right: 0;
+            }
+
+        }
+    }
+    // 擅长
+    .coach-goodat,.coach-evaluation{
+        height: 10.6875rem;
+        background: #fff;
+        padding: .875rem .9375rem;
+        .van-field{
+            margin-top: 1.6875rem;
+            border: 1px solid #D1D1D1;
+            border-radius: .125rem;
+        }
+    }
+    // btn
+    .coach-subimt{
+        text-align: center;
+        margin-top: 1.6875rem;
+        margin-bottom: .625rem;
+        .van-button{
+            background: #0EAF0A;
+            width: 21.5625rem;
+            height: 2.9375rem;
+        }
+    }
+
+    // labelShows
+    .labelShows{
+        li{
+            height: 3.125rem;
+            border-bottom: 1px solid #eee;
+            background: #fff;
+            text-align: center;
+            line-height: 3.125rem;
+        }
+        // li:hover{
+        //     background: #eee;
+        // }
+        li:last-child{
+            border-top: .125rem solid #eee;
+            font-weight: bold;
+            div{
+                flex: 1;
+            }
+        }
+        .active{
+            color:#0EAF0A;
+        }
+
+    }
+}

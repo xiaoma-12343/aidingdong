@@ -1,0 +1,74 @@
+#login .login {
+  padding-top: 5.375rem;
+}
+#login .login h1 {
+  color: #312F32;
+  margin-bottom: 5.375rem;
+  padding-left: 1.5625rem;
+}
+#login .login .login-input {
+  padding: 0 1rem;
+}
+#login .login .login-input > div {
+  width: 21.375rem;
+  height: 3.25rem;
+  border-bottom: 1px solid #EEEEEE;
+  line-height: 3.25rem;
+}
+#login .login .login-input > div input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+#login .login .login-input .login-phone input {
+  width: 16.5rem;
+}
+#login .login .login-input .login-phone span {
+  border: none;
+  outline: none;
+  background: #fff;
+  color: #007AFF;
+  font-size: .875rem;
+}
+#login .login .login-input .van-button {
+  width: 21.4375rem;
+  height: 2.9375rem;
+  background: #312F32;
+  color: #fff;
+  margin-top: 1.875rem;
+  border-radius: .25rem;
+}
+#login .login .login-three {
+  margin: 0 auto;
+  width: 9.6875rem;
+  font-size: .75rem;
+  color: #999999;
+  text-align: center;
+  margin-top: 5rem;
+}
+#login .login .login-three ul {
+  margin-top: .6875rem;
+}
+#login .login .login-three ul li {
+  text-align: center;
+}
+#login .login .login-three ul li i {
+  display: inline-block;
+  width: 1.75rem;
+  height: 1.75rem;
+  background: url('../../assets/icon/icon-wechat.png') no-repeat center / 100%;
+  margin-bottom: .5rem;
+}
+#login .login .login-three ul li .icon-qq {
+  background-image: url('../../assets/icon/icon-qq.png');
+}
+#login .login .login-pact {
+  text-align: center;
+  margin-top: 2.75rem;
+}
+#login .login .login-pact p {
+  font-size: .75rem;
+}
+#login .login .login-pact p span {
+  color: #007AFF;
+}

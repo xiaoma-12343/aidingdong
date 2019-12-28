@@ -1,0 +1,183 @@
+#topic-details{
+    .head-back{
+        background: rgba(255, 255, 255, 0);
+        border: none;
+    }
+    .topic-details{
+        .top-bgc{
+            padding: 0 .875rem;
+            width: 100%;
+            height: 12.9375rem;
+            padding-top: 3.4375rem;
+            color: #fff;
+            div{
+                p:nth-child(2){
+                    margin-top: .9375rem;
+                    font-size: .875rem;
+                    line-height: 1.25rem;
+                    letter-spacing: .0625rem;
+                    margin-bottom: .75rem;
+                }
+                p:last-child{
+                    padding-left: 1.125rem;
+                    height: .625rem;
+                    font-size: .625rem;
+                    background: url('../../../../assets/icon/eyes-w.png') no-repeat left center/4%;
+                }
+            }
+        }
+        .topic-list{
+            // height: 6.25rem;
+            // border: .0625rem solid red;
+            border-radius: 1.25rem 1.25rem 0 0;
+            margin-top: -1.25rem;
+            background: #fff;
+            .list-tab{
+                height: 3.125rem;
+                border-bottom: .0625rem solid #EEEEEE;
+                margin-bottom: .8125rem;
+                li{
+                    line-height: 3.125rem;
+                    font-size: .9375rem;
+                    color: #312F32;
+                    position: relative;
+                    flex: 1;
+                    flex-shrink: 0;
+                    text-align: center;
+                }
+                .active::after{
+                    content: "";
+                    display: block;
+                    height: .1875rem;
+                    width: 2.5rem;
+                    background: #0EAF0A;
+                    border-radius: .09375rem;
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    bottom: 0;
+                }
+            }
+        }
+        .my-topList{
+            background: #f4f4f4;
+            > li{
+                // height: 13.6875rem;
+                background: #fff;
+                padding: .9375rem .875rem .625rem;
+                margin-bottom: .625rem;
+                // userinfo
+                .my-userinfo {
+                    margin-bottom: 1.25rem;
+                    .guanzhu{
+                        background: #0EAF0A;
+                        width: 4.375rem;
+                        height: 1.875rem;
+                        border-radius: .9375rem;
+                        text-align: center;
+                        line-height: 1.875rem;
+                        color: #fff;
+                        font-size: .75rem;
+                    }
+                    >div {
+                        div:first-child{
+                            width: 2.25rem;
+                            height: 2.25rem;
+                            border-radius: 50%;
+                            // border: 1px solid red;
+                            margin-right: .4375rem;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 50%;
+                            }
+                        }
+                        div:last-child{
+                            font-size: .625rem;
+                            color: #999999;
+                            p{
+                                font-size: .875rem;
+                                color: #000;
+                                margin-bottom: .25rem;
+                            }
+                        }
+                    }
+                }
+                // send content
+                .my-content{
+                    p{
+                        margin-bottom: .625rem;
+                    }
+                    .content-img{
+                        li{
+                            width: 6.75rem;
+                            height: 6.75rem;
+                            // border: 1px solid red;
+                            border-radius: .375rem;
+                            margin-right: .6875rem;
+                            overflow: hidden;
+                            img{
+                                width: 100%;
+                                // height: 100%;
+                                // border-radius: .375rem;
+                            }
+                        }
+                        li:nth-child(3n){
+                            margin-right: 0;
+                        }
+                    }
+                }
+                // my-how
+                .my-how{
+                    margin-top: .6875rem;
+                    padding-bottom: .875rem;
+                    border-bottom: .0625rem solid #eee;
+                    margin-bottom: .6875rem;
+                    p:first-child{
+                        font-size: .625rem;
+                        padding-left: 1.25rem;
+                        color: #999999;
+                        background: url('../../../../assets/icon/eyes.png') no-repeat left center / .9375rem;
+                        margin-right: 1.125rem;
+                    }
+                    p:last-child{
+                        flex-shrink: 0;
+                        color: #666666;
+                        // width: 5.5rem;
+                        height: 1.4375rem;
+                        padding-left: 1.5625rem;
+                        padding-right: .3125rem;
+                        line-height: 1.4375rem;
+                        border-radius: .6875rem;
+                        font-size: .75rem;
+                        background: #F1F1F2 url('../../../../assets/icon/icon-topic.png') no-repeat .3125rem;
+                        background-size: .9375rem ;
+                    }
+                }
+                // operat
+                .my-operat{
+                    div:first-child{
+                        color: #006666;
+                        p,.like-active{
+                            height: 1.0625rem;
+                            font-size: .75rem;
+                            background: url('../../../../assets/icon/icon-goods.png') no-repeat left/1.0625rem;
+                            line-height: 1.0625rem;
+                            padding-left: 1.375rem;
+                            margin-right: 1.5rem;
+                        }
+                        .like-active{
+                            background-image: url('../../../../assets/icon/icon-like.png');
+                        }
+                        .operat-pl{
+                            background-image: url('../../../../assets/icon/icon-pinglun.png');
+                        }
+                        .operat-fx{
+                            background-image: url('../../../../assets/icon/icon-fenxiang.png');
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,122 @@
+#event-signup{
+    background: #F2F2F2;
+    padding-top: 3.0625rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    .event-signup{
+        // 选择参赛项目
+        > div{
+            padding:0 .875rem ;
+            // background: #fff;
+            margin-bottom: .3125rem;
+        }
+        .event-select{
+            padding-top: 1.0625rem;
+            background: #fff;
+            >p{
+                padding-left: .875rem;
+                font-size: 1.125rem;
+                font-weight: 600;
+                margin: 0;
+                margin-bottom: .875rem;
+            }
+            ul{
+                li{
+                    background: #F1F1F2;
+                    font-size: .75rem;
+                    // padding: 0 2.875rem;
+                    width: 10.1875rem;
+                    text-align: center;
+                    height: 1.875rem;
+                    flex-shrink: 0;
+                    text-align: center;
+                    line-height: 1.875rem;
+                    margin-bottom: .6875rem;
+                }
+                .active{
+                    background: #312F32;
+                    color: #fff;
+                }
+            }
+            .isShow{
+                text-align: center;
+                height: 6.25rem;
+                line-height: 6.25rem;
+                color: #666;
+            }
+        }
+        .event-enter{
+            // padding: .625rem 0;
+            background: #fff;
+            padding: 0;
+            p{
+                padding-left: .875rem;
+                font-size: .9375rem;
+                color: #333030;
+                height: 2.5rem;
+                line-height: 2.5rem;
+                font-weight: 600;
+                border-bottom: .0625rem solid #F2F2F2; 
+            }
+            .event-formdata{
+                padding-left: .875rem;
+                // 名字
+                .form-input{
+                    border-bottom: .0625rem solid #F2F2F2;
+                    height: 3.25rem;
+                    padding-right: 1rem;
+                    > span{
+                        // flex: 1;
+                        padding-right: .625rem;
+                        font-size: 1.0625rem;
+                        color: #333333;
+                    }
+                    .form-inp{
+                        flex: 1;
+                        input{
+                            width: 15.9375rem;
+                            background: #fff;
+                            border: none;
+                            height: 1.5rem;
+                            line-height: 1.5rem;
+                        }
+                    }
+                }
+                .form-input:last-child{
+                    border-bottom: none;
+                }
+                // 性别
+                .form-sex{
+                    >div{
+                        span{
+                            color: #999999;
+                        }
+                    }
+                }
+                .event-realname{
+                    height: 2.6875rem;
+                    // background: #F5F5F5;
+                    color: #007AFF;
+                    border-bottom: 1px solid #f2f2f2;
+                    line-height: 2.6875rem;
+                }
+            }
+        }
+        .event-submit{
+            padding-top: 5.25rem;
+            // border: 1px solid red;
+            .button{
+                margin-top: .625rem;
+                padding-bottom: 5rem;
+                text-align: center;
+                .van-button{
+                    width: 21.4375rem;
+                    height: 2.9375rem;
+                }
+            }
+        }
+    }
+}

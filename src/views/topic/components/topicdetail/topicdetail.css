@@ -1,0 +1,158 @@
+#topic-details .head-back {
+  background: rgba(255, 255, 255, 0);
+  border: none;
+}
+#topic-details .topic-details .top-bgc {
+  padding: 0 .875rem;
+  width: 100%;
+  height: 12.9375rem;
+  padding-top: 3.4375rem;
+  color: #fff;
+}
+#topic-details .topic-details .top-bgc div p:nth-child(2) {
+  margin-top: .9375rem;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  letter-spacing: .0625rem;
+  margin-bottom: .75rem;
+}
+#topic-details .topic-details .top-bgc div p:last-child {
+  padding-left: 1.125rem;
+  height: .625rem;
+  font-size: .625rem;
+  background: url('../../../../assets/icon/eyes-w.png') no-repeat left center / 4%;
+}
+#topic-details .topic-details .topic-list {
+  border-radius: 1.25rem 1.25rem 0 0;
+  margin-top: -1.25rem;
+  background: #fff;
+}
+#topic-details .topic-details .topic-list .list-tab {
+  height: 3.125rem;
+  border-bottom: .0625rem solid #EEEEEE;
+  margin-bottom: .8125rem;
+}
+#topic-details .topic-details .topic-list .list-tab li {
+  line-height: 3.125rem;
+  font-size: .9375rem;
+  color: #312F32;
+  position: relative;
+  flex: 1;
+  flex-shrink: 0;
+  text-align: center;
+}
+#topic-details .topic-details .topic-list .list-tab .active::after {
+  content: "";
+  display: block;
+  height: .1875rem;
+  width: 2.5rem;
+  background: #0EAF0A;
+  border-radius: .09375rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+#topic-details .topic-details .my-topList {
+  background: #f4f4f4;
+}
+#topic-details .topic-details .my-topList > li {
+  background: #fff;
+  padding: .9375rem .875rem .625rem;
+  margin-bottom: .625rem;
+}
+#topic-details .topic-details .my-topList > li .my-userinfo {
+  margin-bottom: 1.25rem;
+}
+#topic-details .topic-details .my-topList > li .my-userinfo .guanzhu {
+  background: #0EAF0A;
+  width: 4.375rem;
+  height: 1.875rem;
+  border-radius: .9375rem;
+  text-align: center;
+  line-height: 1.875rem;
+  color: #fff;
+  font-size: .75rem;
+}
+#topic-details .topic-details .my-topList > li .my-userinfo > div div:first-child {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  margin-right: .4375rem;
+}
+#topic-details .topic-details .my-topList > li .my-userinfo > div div:first-child img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+#topic-details .topic-details .my-topList > li .my-userinfo > div div:last-child {
+  font-size: .625rem;
+  color: #999999;
+}
+#topic-details .topic-details .my-topList > li .my-userinfo > div div:last-child p {
+  font-size: .875rem;
+  color: #000;
+  margin-bottom: .25rem;
+}
+#topic-details .topic-details .my-topList > li .my-content p {
+  margin-bottom: .625rem;
+}
+#topic-details .topic-details .my-topList > li .my-content .content-img li {
+  width: 6.75rem;
+  height: 6.75rem;
+  border-radius: .375rem;
+  margin-right: .6875rem;
+  overflow: hidden;
+}
+#topic-details .topic-details .my-topList > li .my-content .content-img li img {
+  width: 100%;
+}
+#topic-details .topic-details .my-topList > li .my-content .content-img li:nth-child(3n) {
+  margin-right: 0;
+}
+#topic-details .topic-details .my-topList > li .my-how {
+  margin-top: .6875rem;
+  padding-bottom: .875rem;
+  border-bottom: .0625rem solid #eee;
+  margin-bottom: .6875rem;
+}
+#topic-details .topic-details .my-topList > li .my-how p:first-child {
+  font-size: .625rem;
+  padding-left: 1.25rem;
+  color: #999999;
+  background: url('../../../../assets/icon/eyes.png') no-repeat left center / 0.9375rem;
+  margin-right: 1.125rem;
+}
+#topic-details .topic-details .my-topList > li .my-how p:last-child {
+  flex-shrink: 0;
+  color: #666666;
+  height: 1.4375rem;
+  padding-left: 1.5625rem;
+  padding-right: .3125rem;
+  line-height: 1.4375rem;
+  border-radius: .6875rem;
+  font-size: .75rem;
+  background: #F1F1F2 url('../../../../assets/icon/icon-topic.png') no-repeat 0.3125rem;
+  background-size: .9375rem ;
+}
+#topic-details .topic-details .my-topList > li .my-operat div:first-child {
+  color: #006666;
+}
+#topic-details .topic-details .my-topList > li .my-operat div:first-child p,
+#topic-details .topic-details .my-topList > li .my-operat div:first-child .like-active {
+  height: 1.0625rem;
+  font-size: .75rem;
+  background: url('../../../../assets/icon/icon-goods.png') no-repeat left / 1.0625rem;
+  line-height: 1.0625rem;
+  padding-left: 1.375rem;
+  margin-right: 1.5rem;
+}
+#topic-details .topic-details .my-topList > li .my-operat div:first-child .like-active {
+  background-image: url('../../../../assets/icon/icon-like.png');
+}
+#topic-details .topic-details .my-topList > li .my-operat div:first-child .operat-pl {
+  background-image: url('../../../../assets/icon/icon-pinglun.png');
+}
+#topic-details .topic-details .my-topList > li .my-operat div:first-child .operat-fx {
+  background-image: url('../../../../assets/icon/icon-fenxiang.png');
+}

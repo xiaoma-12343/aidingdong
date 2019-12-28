@@ -1,0 +1,58 @@
+#course {
+  background: #F0F0F1;
+}
+#course .head-back .head-title {
+  font-weight: 400;
+}
+#course .head-back .head-addcourse {
+  font-size: .875rem;
+  color: #0EAF0A;
+}
+#course .course {
+  margin-top: 3.125rem;
+}
+#course .course li {
+  background: #fff;
+  margin-bottom: .3125rem;
+  font-size: .875rem;
+  color: #999999;
+}
+#course .course li .course-top {
+  padding: 1.25rem 1rem .625rem;
+  border-bottom: 1px solid #eee;
+}
+#course .course li .course-top .course-info {
+  margin-top: 1.25rem;
+}
+#course .course li .course-top .course-info .course-imgs {
+  width: 5.0625rem;
+  height: 5.0625rem;
+}
+#course .course li .course-top .course-info .course-imgs img {
+  width: 5.0625rem;
+  height: 5.0625rem;
+}
+#course .course li .course-top .course-info div {
+  font-size: .8125rem;
+}
+#course .course li .course-top .course-info div p:first-child {
+  font-size: .875rem;
+  color: #333333;
+  margin-bottom: .6875rem;
+}
+#course .course li .course-top .course-info div p:last-child {
+  color: #F0010C;
+  margin-top: 1.5625rem;
+}
+#course .course li .course-top .course-info div:first-child {
+  margin-right: .875rem;
+}
+#course .course li .course-btn {
+  height: 3.4375rem;
+}
+#course .course li .course-btn .van-button {
+  margin-right: .9375rem;
+  height: 1.875rem;
+  border-radius: .9375rem;
+  line-height: 1.875rem;
+}

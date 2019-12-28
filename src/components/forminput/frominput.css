@@ -1,0 +1,17 @@
+.form-input {
+  border-bottom: .0625rem solid #F2F2F2;
+  height: 3.25rem;
+}
+.form-input span {
+  padding-right: .625rem;
+  font-size: 1.0625rem;
+}
+.form-input .form-inp {
+  flex: 1;
+}
+.form-input .form-inp input {
+  width: 90%;
+  border: none;
+  height: 1.5rem;
+  line-height: 1.5rem;
+}

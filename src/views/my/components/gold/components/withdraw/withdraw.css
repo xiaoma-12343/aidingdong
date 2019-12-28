@@ -1,0 +1,75 @@
+#withdraw {
+  height: 100%;
+  background: #f4f4f4;
+}
+#withdraw .withdraw {
+  padding-top: 2.75rem;
+}
+#withdraw .withdraw > div:first-child {
+  background: #fff;
+  padding-left: .875rem;
+  margin-bottom: .3125rem;
+  overflow: hidden;
+}
+#withdraw .withdraw > div:first-child p {
+  color: #999999;
+  font-size: .75rem;
+  margin-bottom: 1.25rem;
+  margin-top: .9375rem;
+}
+#withdraw .withdraw > div:first-child > div:nth-child(2) {
+  font-size: 1.0625rem;
+  padding-bottom: .625rem;
+  border-bottom: .0625rem solid #eee;
+  font-weight: bold;
+}
+#withdraw .withdraw > div:first-child > div:nth-child(2) input {
+  font-weight: 400;
+  margin-left: .625rem;
+  font-size: .875rem;
+  border: none;
+  width: 80%;
+}
+#withdraw .withdraw > div:first-child > div:nth-child(3) {
+  height: 2rem;
+  color: #999999;
+  font-size: .875rem;
+  padding-right: .875rem;
+}
+#withdraw .withdraw > div:first-child > div:nth-child(3) span:last-child {
+  color: #0EAF0A;
+}
+#withdraw .withdraw > div:nth-child(2) {
+  height: 3.75rem;
+  background: #fff;
+  padding: 0 .875rem;
+}
+#withdraw .withdraw > div:nth-child(2) .payinfo {
+  font-size: .75rem;
+  color: #999;
+}
+#withdraw .withdraw > div:nth-child(2) .payinfo img {
+  width: 1.8125rem;
+  height: 1.8125rem;
+  margin-right: .625rem;
+}
+#withdraw .withdraw > div:nth-child(2) .payinfo p {
+  color: #333;
+  margin-bottom: .375rem;
+}
+#withdraw .withdraw > div:nth-child(2) .payinfo .icon-youjiantou {
+  color: #999;
+  font-size: 1.25rem;
+}
+#withdraw .withdraw .submit {
+  color: #fff;
+  background: #0EAF0A;
+  width: 21.6875rem;
+  height: 2.9375rem;
+  text-align: center;
+  line-height: 2.9375rem;
+  position: fixed;
+  bottom: 9.4375rem;
+  left: 50%;
+  transform: translateX(-50%);
+}

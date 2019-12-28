@@ -1,0 +1,84 @@
+#indexs {
+  height: 100%;
+  background: #f4f4f4;
+}
+#indexs .head-back .head-title {
+  font-weight: 400;
+}
+#indexs .indexs {
+  padding: 3.75rem .875rem 1.9375rem;
+}
+#indexs .indexs .index-bgc {
+  width: 100%;
+  padding-top: 1.625rem;
+  padding-bottom: .625rem;
+  background: url('../../../../../../assets/bgc1.png') no-repeat center / 100%;
+}
+#indexs .indexs .index-bgc .icon {
+  margin: 0 auto 1.25rem;
+  width: 5.5rem;
+  height: 5.5rem;
+  background: #0EAF0A;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 5.5rem;
+}
+#indexs .indexs .index-bgc .icon img {
+  vertical-align: middle;
+  width: 2.75rem;
+}
+#indexs .indexs .index-bgc .status {
+  color: #0EAF0A;
+  text-align: center;
+  margin-bottom: 3.125rem;
+}
+#indexs .indexs .index-bgc .sign {
+  text-align: center;
+  font-size: .875rem;
+}
+#indexs .indexs .index-bgc .sign p:nth-child(2) {
+  font-size: .9375rem;
+  margin: 1.25rem 0 .625rem;
+  color: #333;
+}
+#indexs .indexs .index-bgc .sign p:last-child {
+  color: #666;
+}
+#indexs .indexs .index-bgc .userinfo {
+  margin-top: 1.9375rem;
+  padding: 0 3.6875rem;
+  font-size: .75rem;
+  color: #333333;
+  margin-bottom: 2.25rem;
+}
+#indexs .indexs .index-bgc .userinfo > div {
+  margin-bottom: 1.1875rem;
+}
+#indexs .indexs .index-bgc .userinfo > div:last-child {
+  margin: 0;
+}
+#indexs .indexs .index-bgc .signnum {
+  padding: 0 1.0625rem 1.3125rem;
+  border-bottom: .0625rem solid #eee;
+  font-size: .75rem;
+  color: #666666;
+  margin-bottom: .9375rem;
+}
+#indexs .indexs .index-bgc .options {
+  text-align: center;
+  font-size: .75rem;
+  color: #666;
+}
+#indexs .indexs .index-bgc .options p:nth-child(2) {
+  margin: .75rem 0;
+}
+#indexs .indexs .index-bgc .options .button {
+  width: 16.75rem;
+  height: 2.25rem;
+  border-radius: .125rem;
+  background: #0EAF0A;
+  margin: 0 auto;
+  line-height: 2.25rem;
+  color: #fff;
+  font-size: .875rem;
+}

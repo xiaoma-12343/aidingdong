@@ -1,0 +1,126 @@
+#details {
+  height: 100%;
+  background: #f4f4f4;
+}
+#details .details {
+  padding-top: 2.75rem;
+}
+#details .details .send-user {
+  background: #fff;
+  padding: .9375rem .875rem .625rem;
+  margin-bottom: .625rem;
+}
+#details .details .send-user .my-userinfo {
+  margin-bottom: 1.25rem;
+}
+#details .details .send-user .my-userinfo .guanzhu {
+  background: #0EAF0A;
+  width: 4.375rem;
+  height: 1.875rem;
+  border-radius: .9375rem;
+  text-align: center;
+  line-height: 1.875rem;
+  color: #fff;
+  font-size: .75rem;
+}
+#details .details .send-user .my-userinfo > div div:first-child {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  margin-right: .4375rem;
+}
+#details .details .send-user .my-userinfo > div div:first-child img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+#details .details .send-user .my-userinfo > div div:last-child {
+  font-size: .625rem;
+  color: #999999;
+}
+#details .details .send-user .my-userinfo > div div:last-child p {
+  font-size: .875rem;
+  color: #000;
+  margin-bottom: .25rem;
+}
+#details .details .send-user .my-content p {
+  margin-bottom: .625rem;
+}
+#details .details .send-user .my-content .content-img li {
+  width: 6.75rem;
+  height: 6.75rem;
+  border-radius: .375rem;
+  margin-right: .6875rem;
+  margin-bottom: .6875rem;
+  overflow: hidden;
+}
+#details .details .send-user .my-content .content-img li img {
+  width: 100%;
+}
+#details .details .send-user .my-content .content-img li:nth-child(3n) {
+  margin-right: 0;
+}
+#details .details .send-user .my-how {
+  margin-top: .6875rem;
+  padding-bottom: .875rem;
+  border-bottom: .0625rem solid #eee;
+  margin-bottom: .6875rem;
+}
+#details .details .send-user .my-how p:first-child {
+  font-size: .625rem;
+  padding-left: 1.25rem;
+  color: #999999;
+  background: url('../../../../assets/icon/eyes.png') no-repeat left center / 0.9375rem;
+  margin-right: 1.125rem;
+}
+#details .details .send-user .my-how p:last-child {
+  flex-shrink: 0;
+  color: #666666;
+  height: 1.4375rem;
+  padding-left: 1.5625rem;
+  padding-right: .3125rem;
+  line-height: 1.4375rem;
+  border-radius: .6875rem;
+  font-size: .75rem;
+  background: #F1F1F2 url('../../../../assets/icon/icon-topic.png') no-repeat 0.3125rem;
+  background-size: .9375rem ;
+}
+#details .details .send-user .my-operat div:first-child {
+  color: #006666;
+}
+#details .details .send-user .my-operat div:first-child p {
+  height: 1.0625rem;
+  font-size: .75rem;
+  background: url('../../../../assets/icon/icon-goods.png') no-repeat left / 1.0625rem;
+  line-height: 1.0625rem;
+  padding-left: 1.375rem;
+  margin-right: 1.5rem;
+}
+#details .details .send-user .my-operat div:first-child .operat-pl {
+  background-image: url('../../../../assets/icon/icon-pinglun.png');
+}
+#details .details .send-user .my-operat div:first-child .operat-fx {
+  background-image: url('../../../../assets/icon/icon-fenxiang.png');
+}
+#details .details .pingluncontent {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 0 .875rem;
+  background: #fff;
+  padding-top: .625rem;
+}
+#details .details .pingluncontent textarea {
+  resize: none;
+  width: 100%;
+  height: 3.125rem;
+}
+#details .details .pingluncontent .sendtopic {
+  background: #0EAF0A;
+  width: 4.375rem;
+  height: 1.875rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.875rem;
+  border-radius: .9375rem;
+}

@@ -1,0 +1,37 @@
+#real {
+  height: 100%;
+  background: #F5F5F5;
+}
+#real .real {
+  background: #fff;
+  margin-top: 3.0625rem;
+  padding-left: .875rem;
+}
+#real .real .input {
+  padding-right: .875rem;
+  height: 3.1875rem;
+  line-height: 3.1875rem;
+  color: #333333;
+}
+#real .real .input input {
+  width: 75%;
+  border: none;
+  outline: none;
+  margin-left: .625rem;
+}
+#real .real .input:first-child {
+  border-bottom: .0625rem solid #eee;
+}
+#real .submit {
+  color: #fff;
+  width: 21.4375rem;
+  height: 2.9375rem;
+  text-align: center;
+  line-height: 2.9375rem;
+  background: #0EAF0A;
+  border-radius: .125rem;
+  position: absolute;
+  left: 50%;
+  bottom: 3.75rem;
+  transform: translateX(-50%);
+}

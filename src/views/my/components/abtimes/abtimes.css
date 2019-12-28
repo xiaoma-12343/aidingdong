@@ -1,0 +1,42 @@
+#abtimes {
+  background: #F0F0F1;
+}
+#abtimes .abtimes-week {
+  background: #fff;
+  padding: 3.6875rem .9375rem .9375rem;
+}
+#abtimes .abtimes-week p {
+  font-size: .875rem;
+  color: #333333;
+  margin-bottom: .9375rem;
+}
+#abtimes .abtimes-week li {
+  width: 100%;
+  margin-bottom: .625rem;
+  height: 2.9375rem;
+  text-align: center;
+  line-height: 2.9375rem;
+  color: #333333;
+  border: 1px solid #9F9F9F;
+}
+#abtimes .abtimes-week .active {
+  background: #0EAF0A;
+  color: #fff;
+}
+#abtimes .abtimes-day {
+  margin-top: .3125rem;
+  background: #fff;
+  font-size: .875rem;
+  color: #333;
+  padding: .9375rem;
+}
+#abtimes .abtimes-day .selectTime {
+  color: #999999;
+  margin: .9375rem 0 2.1875rem;
+}
+#abtimes .abtimes-day .van-button {
+  background: #0EAF0A;
+  width: 21.625rem;
+  height: 2.9375rem;
+  line-height: 2.9375rem;
+}

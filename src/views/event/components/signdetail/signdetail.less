@@ -1,0 +1,111 @@
+#sign-detail{
+    background: #F5F5F5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    .sign-detail{
+        padding-top: 3.0625rem;
+        .sign-signinfo{
+            background: #fff;
+            p{
+                padding: 0 .875rem;
+                height: 2.375rem;
+                line-height: 2.375rem;
+                font-size: .9375rem;
+                color: #9B9B9B;
+                border-bottom:.0625rem solid  #f5f5f5;
+            }
+            .sign-infolist{
+                padding:1.0625rem .875rem;
+                > div{
+                    display: flex;
+                    justify-content: space-between;
+                    color: #999999;
+                    font-size: .875rem;
+                    margin-bottom: .5rem;
+                    span:last-child{
+                        color: #333333;
+                    }
+                }
+            }
+        }
+        .sign-money{
+            margin-top: 2.6875rem;
+            background: #fff;
+            padding:1.8125rem  0;
+            p,.sign-howmoney,.sign-total{
+                padding: 0 .875rem;
+            }
+            p{
+                font-size: .875rem;
+                color: #333333;
+            }
+            .sign-howmoney{
+                height: 2.1875rem;
+                border-bottom: .0625rem solid #eee;
+                span{
+                    font-size: .875rem;
+                    color: #999;
+                }
+                span:last-child{
+                    color: #333333;
+                }
+            }
+            .sign-total{
+                height: 2.9375rem;
+                border-bottom: 3px dotted #eee;
+                margin-bottom: 2.5rem;
+                span{
+                    font-size: .875rem;
+                    color: #312F32;
+                }
+                span:last-child{
+                    font-size: 1.125rem;
+                    color: #333;
+                    font-weight: 600;
+                }
+            }
+            .sign-pay{
+                text-align: center;
+                p{
+                    font-size: .875rem;
+                    color: #999999;
+                    margin-bottom: .5rem;
+                }
+                ul{
+                    margin-bottom: 4.375rem;
+                    padding: 0 .875rem;
+                    .active{
+                        border: 1px solid #00C062;
+                    }
+                    li{
+                        border-radius: .125rem;
+                        // background:;
+                        background: #F9F9F9 url('../../../../assets/icon/signdetail//icon-jinbi.png') no-repeat center center;
+                        width: 6.8125rem;
+                        height: 6.625rem;
+                        text-align: center;
+                        padding: .9375rem 0;
+                        p:nth-child(2){
+                            font-size: .75rem;
+                            margin-top: 2.8125rem;
+                        }
+                    }
+                    li:nth-child(2){
+                        background-image: url('../../../../assets/icon/signdetail/icon-wechat.png');
+                    }
+                    li:last-child{
+                        background-image: url('../../../../assets/icon/signdetail/icon-alipay.png');
+                    }
+                }
+                .van-button{
+                    border-radius: .125rem;
+                    width: 21.4375rem;
+                    height: 2.9375rem;
+                }
+            }
+        }
+    }
+}

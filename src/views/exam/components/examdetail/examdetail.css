@@ -1,0 +1,11 @@
+#exam-detail .exam-submit {
+  width: 100%;
+  height: 3.125rem;
+  background: #0EAF0A;
+  color: #fff;
+  text-align: center;
+  line-height: 3.125rem;
+  font-size: 1.125rem;
+  position: fixed;
+  bottom: 0;
+}

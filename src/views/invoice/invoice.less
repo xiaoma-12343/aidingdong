@@ -1,0 +1,144 @@
+#invoice{
+    .head-back{
+        .head-right{
+            color: #0EAF0A;
+            font-size: .875rem;
+        }
+    }
+
+    .invoice{
+        margin-top: 2.75rem;
+        border-top: .3125rem solid #eee;
+        ul{
+            padding-bottom: 7.1875rem;
+            li{
+                border-bottom: .0625rem solid #F5F5F5;
+                padding: 1rem .875rem;
+                .left{
+                    .gren{
+                        border-radius: 50%;
+                        border: .0625rem solid #E7E7E7;
+                        width: .75rem;
+                        height: .75rem;
+                        margin-right: 1rem;
+                        position: relative;
+                    }
+                    .active::after{
+                        content:"";
+                        display: block;
+                        width: .375rem;
+                        height: .375rem;
+                        background: #0EAF0A;
+                        border-radius: 50%;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                    }
+                    .info{
+                        p{
+                            margin-bottom: .9375rem;
+                            color: #666;
+                            font-size: .875rem;
+                            i{
+                                margin-right: .375rem;
+                            }
+                            .icon-shijian{
+                                font-size: .5rem;
+                                color: #666;
+                            }
+                        }
+                        p:nth-child(2),p:last-child{
+                            > i {
+                                background: #40B697;
+                                width: .375rem;
+                                height: .375rem;
+                                border-radius: 50%;
+                                display: inline-block;
+                            }
+                        }
+                        p:last-child{
+                            margin-bottom: 0;
+                            i{
+                                background: #E3BE29;
+                            }
+                        }
+                    }
+                }
+                .right{
+                    align-self: flex-end;
+                    color: #333333;
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    span{
+                        font-weight: 400;
+                        font-size: .875rem;
+                    }
+                }
+            }
+        }
+
+        .opction{
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            height: 6.8125rem;
+            background: #F9F9F9;
+            .num{
+                padding: 0 1rem;
+                height: 2rem;
+                line-height: 2rem;
+                font-size: .75rem;
+                color: #666666;
+                border-bottom: .0625rem solid #E4E4E4;
+                border-top: .0625rem solid #E4E4E4;
+                span{
+                    color: #0EAF0A;
+                }
+            }
+            .select{
+                height: 4.8125rem;
+                padding: 0 1rem;
+                .selected{
+                    > div{
+                        display: flex;
+                        align-items: center;
+                        font-size: .875rem;
+                        color: #515151;
+                        margin-right: 1.5625rem;
+                    }
+                    .gren{
+                        width: 1.125rem;
+                        height: 1.125rem;
+                        border-radius: 50%;
+                        border: .0625rem solid #e7e7e7;
+                        margin-right: .625rem;
+                        position: relative;
+                    }
+                    .active::after{
+                        content:"";
+                        display: block;
+                        width: .5625rem;
+                        height: .5625rem;
+                        background: #0EAF0A;
+                        border-radius: 50%;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                    }
+                }
+                .button{
+                    width: 6.875rem;
+                    height: 2.9375rem;
+                    text-align: center;
+                    line-height: 2.9375rem;
+                    color: #fff;
+                    background: #0EAF0A;
+                    border-radius: .125rem;
+                    font-size: .875rem;
+                }
+            }
+        }
+    }
+}

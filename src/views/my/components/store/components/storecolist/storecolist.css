@@ -1,0 +1,33 @@
+#storecolist {
+  height: 100%;
+  background: #f4f4f4;
+}
+#storecolist .storecolist {
+  padding: 0 .875rem;
+  margin-top: 2.75rem;
+  background: #fff;
+}
+#storecolist .storecolist li {
+  height: 4.375rem;
+  border-bottom: .0625rem solid #eee;
+}
+#storecolist .storecolist li .userInfo {
+  font-size: .875rem;
+}
+#storecolist .storecolist li .userInfo img {
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border: 1px solid red;
+  border-radius: 50%;
+  margin-right: .625rem;
+}
+#storecolist .storecolist li .guanzhu {
+  font-size: .75rem;
+  width: 4.375rem;
+  height: 1.875rem;
+  border-radius: .9375rem;
+  background: #0EAF0A;
+  color: #fff;
+  text-align: center;
+  line-height: 1.875rem;
+}

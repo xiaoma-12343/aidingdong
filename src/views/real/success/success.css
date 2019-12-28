@@ -1,0 +1,35 @@
+#real-success {
+  height: 100%;
+  background: #f5f5f5;
+}
+#real-success .real-success {
+  padding-top: 4.625rem;
+  text-align: center;
+}
+#real-success .real-success img {
+  width: 4.0625rem;
+  height: 4.0625rem;
+  border-radius: 50%;
+  margin-bottom: 1.0625rem;
+}
+#real-success .real-success p:nth-child(2) {
+  margin-bottom: .9375rem;
+}
+#real-success .real-success p:nth-child(3),
+#real-success .real-success p:nth-child(4) {
+  font-size: .875rem;
+  color: #333;
+  line-height: 1.25rem;
+}
+#real-success .real-success p:nth-child(4) {
+  margin-bottom: 2.6875rem;
+}
+#real-success .real-success .submit {
+  background: #0EAF0A;
+  text-align: center;
+  width: 17.5rem;
+  height: 2.9375rem;
+  color: #fff;
+  margin: 0 auto;
+  line-height: 2.9375rem;
+}

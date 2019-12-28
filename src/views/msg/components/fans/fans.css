@@ -1,0 +1,43 @@
+#fans .head-back {
+  background: #3D3C41;
+}
+#fans .head-back .head-title {
+  color: #fff;
+  font-weight: 400;
+}
+#fans .fans {
+  padding-top: 2.75rem;
+  padding-left: .9375rem;
+}
+#fans .fans li {
+  color: #999999;
+  padding-right: .9375rem;
+  height: 4.3125rem;
+  border-bottom: .0625rem solid #eee;
+  font-size: .75rem;
+}
+#fans .fans li div img {
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border-radius: 50%;
+  margin-right: .625rem;
+}
+#fans .fans li div p {
+  font-size: .875rem;
+  color: #000000;
+  margin-bottom: .5625rem;
+}
+#fans .fans li .guanzhu {
+  display: block;
+  width: 4.375rem;
+  height: 1.875rem;
+  color: #fff;
+  background: #0EAF0A;
+  text-align: center;
+  line-height: 1.875rem;
+  font-size: .75rem;
+  border-radius: .125rem;
+}
+#fans .fans li:last-child {
+  border: none;
+}

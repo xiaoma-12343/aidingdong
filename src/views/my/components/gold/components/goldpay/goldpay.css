@@ -1,0 +1,47 @@
+#gold-pay .head-back .head-title {
+  font-weight: 400;
+}
+#gold-pay .gold-pay {
+  padding: 4.3125rem .875rem 0;
+}
+#gold-pay .gold-pay .gold-rmb .gold-waring {
+  margin-bottom: 1.1875rem;
+  font-size: .8125rem;
+}
+#gold-pay .gold-pay .gold-rmb ul li {
+  margin-bottom: .625rem;
+  flex-shrink: 0;
+  width: 6.9375rem;
+  height: 3.5625rem;
+  border: 1px solid #0EAF0A;
+  border-radius: .125rem;
+  text-align: center;
+  color: #0EAF0A;
+  font-weight: bold;
+}
+#gold-pay .gold-pay .gold-rmb ul li span {
+  font-size: .75rem;
+  font-weight: 400;
+}
+#gold-pay .gold-pay .gold-button {
+  position: fixed;
+  bottom: 9.6875rem;
+}
+#gold-pay .gold-pay .gold-button p {
+  font-size: .75rem;
+  margin-bottom: .75rem;
+}
+#gold-pay .gold-pay .gold-button p a {
+  color: #0EAF0A;
+}
+#gold-pay .gold-pay .gold-button .button {
+  width: 21.6875rem;
+  height: 2.9375rem;
+  border-radius: .125rem;
+  background: #0EAF0A;
+  text-align: center;
+  line-height: 2.9375rem;
+  color: #fff;
+  font-size: 1.125rem;
+  margin: 0 auto;
+}

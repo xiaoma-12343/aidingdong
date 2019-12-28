@@ -1,0 +1,39 @@
+#sign-success {
+  height: 100%;
+}
+#sign-success .sign-success {
+  text-align: center;
+  padding-top: 6.4375rem;
+}
+#sign-success .sign-success .sign-pay {
+  text-align: center;
+  margin-bottom: 3.8125rem;
+}
+#sign-success .sign-success .sign-pay div {
+  margin-top: 1.875rem;
+  width: 4.0625rem;
+  height: 4.0625rem;
+  border-radius: 50%;
+  background: #0EAF0A;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 1.0625rem;
+}
+#sign-success .sign-success .sign-pay div .van-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#sign-success .sign-success .sign-pay p {
+  margin-bottom: .5rem;
+}
+#sign-success .sign-success .sign-pay p:last-child {
+  font-size: .875rem;
+  color: #888888;
+}
+#sign-success .sign-success .van-button {
+  width: 21.4375rem;
+  height: 2.9375rem;
+  background: #0EAF0A;
+}

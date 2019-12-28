@@ -1,0 +1,131 @@
+#invoice .head-back .head-right {
+  color: #0EAF0A;
+  font-size: .875rem;
+}
+#invoice .invoice {
+  margin-top: 2.75rem;
+  border-top: .3125rem solid #eee;
+}
+#invoice .invoice ul {
+  padding-bottom: 7.1875rem;
+}
+#invoice .invoice ul li {
+  border-bottom: .0625rem solid #F5F5F5;
+  padding: 1rem .875rem;
+}
+#invoice .invoice ul li .left .gren {
+  border-radius: 50%;
+  border: .0625rem solid #E7E7E7;
+  width: .75rem;
+  height: .75rem;
+  margin-right: 1rem;
+  position: relative;
+}
+#invoice .invoice ul li .left .active::after {
+  content: "";
+  display: block;
+  width: .375rem;
+  height: .375rem;
+  background: #0EAF0A;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#invoice .invoice ul li .left .info p {
+  margin-bottom: .9375rem;
+  color: #666;
+  font-size: .875rem;
+}
+#invoice .invoice ul li .left .info p i {
+  margin-right: .375rem;
+}
+#invoice .invoice ul li .left .info p .icon-shijian {
+  font-size: .5rem;
+  color: #666;
+}
+#invoice .invoice ul li .left .info p:nth-child(2) > i,
+#invoice .invoice ul li .left .info p:last-child > i {
+  background: #40B697;
+  width: .375rem;
+  height: .375rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+#invoice .invoice ul li .left .info p:last-child {
+  margin-bottom: 0;
+}
+#invoice .invoice ul li .left .info p:last-child i {
+  background: #E3BE29;
+}
+#invoice .invoice ul li .right {
+  align-self: flex-end;
+  color: #333333;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#invoice .invoice ul li .right span {
+  font-weight: 400;
+  font-size: .875rem;
+}
+#invoice .invoice .opction {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 6.8125rem;
+  background: #F9F9F9;
+}
+#invoice .invoice .opction .num {
+  padding: 0 1rem;
+  height: 2rem;
+  line-height: 2rem;
+  font-size: .75rem;
+  color: #666666;
+  border-bottom: .0625rem solid #E4E4E4;
+  border-top: .0625rem solid #E4E4E4;
+}
+#invoice .invoice .opction .num span {
+  color: #0EAF0A;
+}
+#invoice .invoice .opction .select {
+  height: 4.8125rem;
+  padding: 0 1rem;
+}
+#invoice .invoice .opction .select .selected > div {
+  display: flex;
+  align-items: center;
+  font-size: .875rem;
+  color: #515151;
+  margin-right: 1.5625rem;
+}
+#invoice .invoice .opction .select .selected .gren {
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 50%;
+  border: .0625rem solid #e7e7e7;
+  margin-right: .625rem;
+  position: relative;
+}
+#invoice .invoice .opction .select .selected .active::after {
+  content: "";
+  display: block;
+  width: .5625rem;
+  height: .5625rem;
+  background: #0EAF0A;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#invoice .invoice .opction .select .button {
+  width: 6.875rem;
+  height: 2.9375rem;
+  text-align: center;
+  line-height: 2.9375rem;
+  color: #fff;
+  background: #0EAF0A;
+  border-radius: .125rem;
+  font-size: .875rem;
+}

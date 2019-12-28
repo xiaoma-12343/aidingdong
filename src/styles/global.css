@@ -1,0 +1,25 @@
+div,input,p,li,ul{
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+}
+.details-activity .details-contents img{
+    width: 100%;
+}
+html,body,#app{
+    height: 100% !important;
+    font-family: '苹方';
+}
+
+.fade-enter-active,.fade-leave-active{
+    transition: all 1s ease;
+}
+.fade-enter,.fade-leave-to{
+    transform: translateX(23.4375rem);
+    opacity: 0;
+}
+
+*{
+    -webkit-overflow-scrolling: touch;
+}

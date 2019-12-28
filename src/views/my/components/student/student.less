@@ -1,0 +1,50 @@
+#student{
+    background: #F0F0F1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    .head-back{
+        .head-title{
+            font-weight: 400;
+        }
+    }
+    // 学员列表
+    .student{
+        padding-top: 3.125rem;
+        > li{
+            margin-bottom: .3125rem;
+            background: #fff;
+            padding: .625rem .9375rem;
+            .student-easyinfo{
+                font-size: .875rem;
+                img{
+                    margin-right: .625rem;
+                    border-radius: 50%;
+                    width: 2.8125rem;
+                    height: 2.8125rem;
+                }
+            }
+            > ul{
+                margin-top: .9375rem;
+                li{
+                    margin-bottom: .625rem;
+                    border-bottom: .0625rem solid #EEEEEE;
+                    div{
+                        font-size: .875rem;
+                        color: #999;
+                    }
+                    div:last-child{
+                        margin: .625rem 0;
+                        font-size: 1rem;
+                        color: #333;
+                    }
+                }
+                li:last-child{
+                    border: none;
+                }
+            }
+        }
+    }
+}

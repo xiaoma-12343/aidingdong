@@ -1,0 +1,41 @@
+#edit-userinfo {
+  overflow: hidden;
+}
+#edit-userinfo .head-back .head-title {
+  font-weight: 400;
+}
+#edit-userinfo .head-back .head-right {
+  font-size: .875rem;
+  color: #0EAF0A;
+}
+#edit-userinfo .edit-userinfo {
+  padding-top: 2.75rem;
+}
+#edit-userinfo .edit-userinfo .userinfos {
+  padding-left: .875rem;
+  border-top: .3125rem solid #F2F2F2;
+}
+#edit-userinfo .edit-userinfo .userinfos .edit-data {
+  height: 3.25rem;
+  border-bottom: .0625rem solid #eee;
+  padding-right: .875rem;
+  font-size: 1rem;
+  color: #999;
+}
+#edit-userinfo .edit-userinfo .userinfos .edit-data .editinput {
+  outline: none;
+  border: none;
+}
+#edit-userinfo .edit-userinfo .userinfos .edit-data p {
+  color: #333;
+  font-size: 1.0625rem;
+}
+#edit-userinfo .edit-userinfo .userinfos .edit-data div .van-uploader,
+#edit-userinfo .edit-userinfo .userinfos .edit-data div img {
+  border-radius: 50%;
+  width: 2.25rem;
+  height: 2.25rem;
+}
+#edit-userinfo .edit-userinfo .userinfos .edit-data div .van-icon {
+  margin-left: .8125rem;
+}

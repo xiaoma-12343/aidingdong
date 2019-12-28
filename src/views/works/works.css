@@ -1,0 +1,165 @@
+#works .head-back {
+  background: transparent;
+  border: none;
+}
+#works .head-back .head-title {
+  font-weight: 400;
+}
+#works .works #videos {
+  width: 100%;
+  height: 13.125rem;
+}
+#works .works .infos {
+  padding: 0 .875rem .8125rem;
+  border-bottom: .0625rem solid #eee;
+}
+#works .works .infos .head {
+  margin-top: 1.125rem;
+  color: #312F32;
+  font-size: .875rem;
+  margin-bottom: 1.125rem;
+}
+#works .works .infos .head img {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+}
+#works .works .infos .head span {
+  margin: 0  1.25rem  0 .625rem;
+}
+#works .works .infos .head div {
+  color: #fff;
+  background: #0EAF0A;
+  text-align: center;
+  width: 3rem;
+  height: 1.375rem;
+  border-radius: .75rem;
+  line-height: 1.375rem;
+  font-size: .8125rem;
+}
+#works .works .vote-event {
+  padding-top: .625rem;
+}
+#works .works .vote-event .infonum {
+  color: #312F32;
+  font-size: .9375rem;
+  padding: 0 5.0625rem;
+  text-align: center;
+  font-weight: bold;
+}
+#works .works .vote-event .infonum span {
+  font-weight: 400;
+  font-size: .8125rem;
+  color: #9B9B9B;
+}
+#works .works .vote-event .submit {
+  width: 16.75rem;
+  height: 2.25rem;
+  background: #0EAF0A;
+  text-align: center;
+  line-height: 2.25rem;
+  color: #fff;
+  font-size: .8125rem;
+  margin: 1.4375rem auto 0;
+  border-radius: .125rem;
+}
+#works .works .works-pinglun {
+  padding: .875rem .875rem 0;
+}
+#works .works .works-pinglun .p_title {
+  font-size: .8125rem;
+  color: #999;
+}
+#works .works .works-pinglun .p_title p {
+  color: #312F32;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+#works .works .works-pinglun .pinglunlist {
+  margin-top: .9375rem;
+  padding-bottom: 3.125rem;
+}
+#works .works .works-pinglun .pinglunlist li {
+  border-bottom: .0625rem solid #eee;
+  padding-bottom: .8125rem;
+  margin-bottom: .8125rem;
+}
+#works .works .works-pinglun .pinglunlist li .top > div img {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  margin-right: .625rem;
+}
+#works .works .works-pinglun .pinglunlist li .top > div div {
+  font-size: .625rem;
+  color: #999;
+}
+#works .works .works-pinglun .pinglunlist li .top > div div p {
+  font-size: .875rem;
+  color: #312F32;
+  font-weight: bold;
+  margin-bottom: .125rem;
+}
+#works .works .works-pinglun .pinglunlist li > p {
+  margin-top: .25rem;
+  font-size: .875rem;
+  color: #312F32;
+}
+#works .works .works-pinglun .pinglunlist li .more-huifu {
+  width: 18.6875rem;
+  height: 4.875rem;
+  padding: .5rem 0 0 .625rem;
+  background: #F8F8F8;
+  margin-top: .625rem;
+  margin-left: 3rem;
+}
+#works .works .pinglun-input {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 3.125rem;
+  padding: .4375rem .9375rem;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.06);
+  background: #fff;
+}
+#works .works .pinglun-input .input {
+  background: #F0F0F1;
+  width: 13.75rem;
+  height: 2.25rem;
+  border-radius: 1.125rem;
+  color: #8E8E93;
+  font-size: .875rem;
+  line-height: 2.25rem;
+  transition: all .5s ease;
+}
+#works .works .pinglun-input .input input {
+  padding-left: 1.375rem;
+  background: #F0F0F1;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 1.125rem;
+}
+#works .works .pinglun-input .sendsay {
+  font-size: .875rem;
+  color: #0EAF0A;
+}
+#works .works .pinglun-input ul {
+  margin-left: .75rem;
+  transition: all .5s ease;
+}
+#works .works .pinglun-input ul li {
+  text-align: center;
+  font-size: .5625rem;
+  color: #9B9B9B;
+  margin-right: 1.1875rem;
+}
+#works .works .pinglun-input ul li img {
+  width: 1.375rem;
+  height: 1.25rem;
+  margin-bottom: .125rem;
+}
+#works .works .pinglun-input ul li:last-child {
+  margin-right: 0;
+}

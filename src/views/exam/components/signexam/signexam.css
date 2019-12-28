@@ -1,0 +1,54 @@
+#sign-exam {
+  height: 100%;
+  background: #f4f4f4;
+}
+#sign-exam .sign-exam {
+  padding-top: 3.125rem;
+}
+#sign-exam .sign-exam .sign-info {
+  padding-left: 1rem;
+  background: #fff;
+}
+#sign-exam .sign-exam .sign-info p {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  border-bottom: .0625rem solid #eee;
+  font-size: .9375rem;
+  color: #333030;
+  font-weight: bold;
+}
+#sign-exam .sign-exam .sign-info div {
+  padding-right: 1rem;
+  height: 3.25rem;
+  border-bottom: .0625rem solid #eee;
+  font-size: .875rem;
+  color: #999;
+}
+#sign-exam .sign-exam .sign-info div span:first-child {
+  font-size: 1.0625rem;
+  color: #333;
+}
+#sign-exam .sign-exam .sign-info div input {
+  border: none;
+  outline: none;
+  text-align: right;
+}
+#sign-exam .sign-exam .sign-info div:last-child {
+  border: none;
+}
+#sign-exam .sign-exam .sign-info .sign-real {
+  color: #007AFF;
+}
+#sign-exam .sign-exam .sign-submit {
+  background: #0EAF0A;
+  color: #fff;
+  width: 21.4375rem;
+  height: 2.9375rem;
+  line-height: 2.9375rem;
+  text-align: center;
+  position: fixed;
+  bottom: 3.75rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: .125rem;
+}

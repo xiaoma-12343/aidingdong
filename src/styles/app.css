@@ -1,0 +1,167 @@
+/* 全局样式 */
+html,
+body {
+  /* height: 100%; */
+  height: auto !important;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.app {
+  width: 100%;
+}
+#root {
+  display: flex;
+  height: auto !important;
+  width: 100%;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  *zoom: 1;
+  /* ie67专用 */
+}
+.hidden {
+  visibility: hidden !important;
+}
+
+.hand:hover {
+  cursor: pointer;
+}
+.inlineBlock {
+  display: inline-block !important;
+}
+.left {
+  float: left;
+}
+/* 100%适应宽的图片 */
+.coverImg {
+  display: block;
+  height: 100% !important;
+  width: 100% !important;
+  -webkit-background-size: cover;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.mr0 {
+  margin-right: 0 !important;
+}
+/* 辅助线 */
+
+.red {
+  border: 1px solid red;
+}
+.ccc {
+  border: 1px solid #ccc;
+}
+.yellow {
+  border: 1px solid yellow;
+}
+
+.black {
+  border: 1px solid #000;
+}
+
+.blue {
+  color: #17b1f7 !important;
+}
+.white {
+  background-color: #fff;
+}
+.pink {
+  border: 1px solid pink;
+}
+
+.borderBox {
+  box-sizing: border-box;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.green {
+  color: #58b530;
+}
+
+.show {
+  display: block !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.tac {
+  text-align: center;
+}
+
+.tal {
+  text-align: left;
+}
+
+.tar {
+  text-align: right;
+}
+
+.vm {
+  vertical-align: middle;
+}
+
+/*单行文字截断*/
+
+.ellipsis {
+  word-wrap: normal;
+  /* for IE */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/*多行文字截断*/
+
+.line-clamp {
+  display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.line-clamp2 {
+  display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.line-clamp3 {
+  display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.jiantou {
+  width: 0;
+  height: 0;
+  border-top: 14rpx solid rgba(74, 74, 74, 1);
+  border-left: 14rpx solid transparent;
+  border-right: 14rpx solid transparent;
+}

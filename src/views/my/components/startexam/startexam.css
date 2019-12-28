@@ -1,0 +1,65 @@
+#start-exam .head-back .head-title {
+  font-weight: 400;
+}
+#start-exam .start-exam .start-top {
+  border-bottom: .0625rem solid #EEEEEE;
+  margin-bottom: .9375rem;
+  padding: .9375rem;
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  top: 2.75rem;
+}
+#start-exam .start-exam .start-top > div {
+  color: #030303;
+}
+#start-exam .start-exam .start-top > div p:last-child {
+  color: #999999;
+  font-size: .75rem;
+}
+#start-exam .start-exam .start-top > div p:last-child span {
+  color: #F0010C;
+}
+#start-exam .start-exam .start-top > p {
+  margin-top: .5625rem;
+  color: #999999;
+  font-size: .75rem;
+}
+#start-exam .start-exam .start-select {
+  margin-top: 7.3125rem;
+  padding-bottom: 2.1875rem;
+}
+#start-exam .start-exam .start-select > li {
+  padding: .9375rem;
+  border-bottom: .0625rem solid #EEEEEE;
+  color: #333333;
+}
+#start-exam .start-exam .start-select > li p {
+  margin-bottom: 1.5625rem;
+}
+#start-exam .start-exam .start-select > li ul .active {
+  color: #0EAF0A;
+}
+#start-exam .start-exam .start-select > li ul li {
+  margin-bottom: .5rem;
+}
+#start-exam .start-exam .start-select > li ul li span {
+  margin-left: .625rem;
+}
+#start-exam .start-exam .start-select > li:first-child {
+  color: #333333;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  border: none;
+}
+#start-exam .start-exam .sbBtn {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+#start-exam .start-exam .sbBtn .van-button {
+  background: #0EAF0A;
+  width: 100%;
+  height: 2.9375rem;
+}

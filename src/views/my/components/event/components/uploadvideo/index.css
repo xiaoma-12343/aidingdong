@@ -1,0 +1,101 @@
+#upvideo {
+  height: 100%;
+  background: #F5F5F5;
+}
+#upvideo .head-back .head-title {
+  font-weight: 400;
+}
+#upvideo .upvideo {
+  padding-top: 44px;
+}
+#upvideo .upvideo .uptitle {
+  height: 2rem;
+  color: #666;
+  font-size: .75rem;
+  padding-left: .875rem;
+  line-height: 2rem;
+  background: #F5F5F5;
+}
+#upvideo .upvideo .jindutiao {
+  width: 6.25rem;
+  background: rgba(0, 0, 0, 0.5);
+  height: 6.25rem;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: .375rem;
+  padding: 1.875rem .625rem 0;
+  color: #fff;
+  text-align: center;
+}
+#upvideo .upvideo .jindutiao div {
+  height: .0625rem;
+  background: #fff;
+  position: relative;
+  bottom: -2rem;
+  z-index: 2;
+}
+#upvideo .upvideo .options {
+  padding: 1.25rem 1rem 3.0625rem;
+  background: #fff;
+}
+#upvideo .upvideo .options .emailinput {
+  border-bottom: .0625rem solid #eee;
+  margin-bottom: 3.125rem;
+  padding-bottom: .3125rem;
+}
+#upvideo .upvideo .options .emailinput input {
+  width: 70%;
+  border: none;
+}
+#upvideo .upvideo .options .up {
+  width: 82px;
+  height: 5.125rem;
+  background: #F1F1F2;
+  color: #999999;
+  font-size: .625rem;
+  border-radius: .25rem;
+  text-align: center;
+  margin: 0 auto 1.0625rem;
+}
+#upvideo .upvideo .options .up p:first-child {
+  font-size: 3.125rem;
+}
+#upvideo .upvideo .options .again {
+  text-align: right;
+  color: #0EAF0A;
+  font-size: .875rem;
+  border-bottom: .0625rem solid #eee;
+  padding-bottom: .625rem;
+  margin-bottom: 3.0625rem;
+}
+#upvideo .upvideo .options .submit,
+#upvideo .upvideo .options .button {
+  width: 21.4375rem;
+  height: 2.9375rem;
+  margin-bottom: .625rem;
+  background: #0EAF0A;
+  color: #fff;
+  text-align: center;
+  line-height: 2.9375rem;
+}
+#upvideo .upvideo .options .button {
+  border: .0625rem solid #0EAF0A;
+  background: #fff;
+  color: #0EAF0A;
+}
+#upvideo .upvideo .shuoming {
+  margin-top: 3.125rem;
+  padding: 0 .875rem;
+}
+#upvideo .upvideo .shuoming img {
+  flex-shrink: 0;
+  width: .875rem;
+  height: .875rem;
+  margin-right: .6875rem;
+}
+#upvideo .upvideo .shuoming p {
+  font-size: 12px;
+  color: #999;
+}

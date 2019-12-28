@@ -1,0 +1,11 @@
+#tjfp .tjfp {
+  padding-top: 2.75rem;
+}
+#tjfp .tjfp .t_title {
+  background: #F5F5F5;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  padding-left: .875rem;
+  font-size: .875rem;
+  color: #666666;
+}

@@ -1,0 +1,77 @@
+#vip .head-back {
+  background: #333333;
+  border: none;
+}
+#vip .head-back .head-title {
+  color: #fff;
+  font-weight: 400;
+}
+#vip .vip {
+  margin-top: 2.75rem;
+}
+#vip .vip .vip-cardbg {
+  text-align: center;
+  line-height: 6.25rem;
+  height: 6.25rem;
+  background: #333333;
+  position: relative;
+  margin-bottom: 7.4375rem;
+}
+#vip .vip .vip-cardbg .vip-card {
+  color: #fff;
+  width: 21.6875rem;
+  height: 11.0625rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: .375rem;
+  background-image: linear-gradient(to right, #37C86D, #11998E);
+}
+#vip .vip .vip-cardbg .vip-card img {
+  width: 100%;
+}
+#vip .vip .vip-lists {
+  padding: 0 .875rem;
+}
+#vip .vip .vip-lists > p {
+  padding-left: .5rem;
+  font-size: .875rem;
+  border-left: .1875rem solid #30C074;
+  height: 1rem;
+  margin-bottom: 1.8125rem;
+}
+#vip .vip .vip-lists ul {
+  padding: 0 .625rem;
+}
+#vip .vip .vip-lists ul li {
+  margin-bottom: 1.4375rem;
+}
+#vip .vip .vip-lists ul li div {
+  margin-bottom: .625rem;
+}
+#vip .vip .vip-lists ul li div img {
+  margin-right: .6875rem;
+  width: 1.875rem;
+  height: 1.875rem;
+  flex-shrink: 0;
+}
+#vip .vip .vip-lists ul li div p {
+  line-height: 1.875rem;
+}
+#vip .vip .vip-lists ul li span {
+  font-size: .75rem;
+  color: #666;
+  letter-spacing: .0625rem;
+}
+#vip .vip .vip-lists ul li:nth-child(4n) {
+  margin-right: 0;
+}
+#vip .vip .vip-check {
+  text-align: center;
+}
+#vip .vip .vip-check .van-button {
+  background: #0EAF0A;
+  width: 21.5625rem;
+  height: 2.9375rem;
+}

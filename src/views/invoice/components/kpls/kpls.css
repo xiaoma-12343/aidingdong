@@ -1,0 +1,52 @@
+#kpls {
+  height: 100%;
+  background: #F5F5F5;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+#kpls .kpls {
+  padding-top: 3.3125rem;
+}
+#kpls .kpls li {
+  width: 21.6875rem;
+  height: 5.625rem;
+  background: #fff;
+  border-radius: .375rem;
+  box-shadow: 0px 0.375rem 0.25rem 0px rgba(0, 0, 0, 0.06);
+  margin: 0 auto .625rem;
+  padding: 1.25rem .75rem 1.5625rem;
+}
+#kpls .kpls li .top {
+  color: #999;
+  font-size: .75rem;
+  margin-bottom: 1.25rem;
+}
+#kpls .kpls li .top p:first-child {
+  font-size: .875rem;
+  color: #666;
+}
+#kpls .kpls li .top p:first-child .icon-shijian {
+  color: #666;
+  font-size: .5rem;
+  margin-right: .6875rem;
+}
+#kpls .kpls li .bottom p:first-child {
+  color: #666666;
+  font-size: .875rem;
+}
+#kpls .kpls li .bottom p:first-child i {
+  display: inline-block;
+  width: .375rem;
+  height: .375rem;
+  border-radius: 50%;
+  background: #40B697;
+  margin-right: .6875rem;
+}
+#kpls .kpls li .bottom p:last-child {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#kpls .kpls li .bottom p:last-child span {
+  font-weight: 400;
+  font-size: .875rem;
+}

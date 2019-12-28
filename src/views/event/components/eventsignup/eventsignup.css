@@ -1,0 +1,103 @@
+#event-signup {
+  background: #F2F2F2;
+  padding-top: 3.0625rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+#event-signup .event-signup > div {
+  padding: 0 .875rem ;
+  margin-bottom: .3125rem;
+}
+#event-signup .event-signup .event-select {
+  padding-top: 1.0625rem;
+  background: #fff;
+}
+#event-signup .event-signup .event-select > p {
+  padding-left: .875rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: .875rem;
+}
+#event-signup .event-signup .event-select ul li {
+  background: #F1F1F2;
+  font-size: .75rem;
+  width: 10.1875rem;
+  height: 1.875rem;
+  flex-shrink: 0;
+  text-align: center;
+  line-height: 1.875rem;
+  margin-bottom: .6875rem;
+}
+#event-signup .event-signup .event-select ul .active {
+  background: #312F32;
+  color: #fff;
+}
+#event-signup .event-signup .event-select .isShow {
+  text-align: center;
+  height: 6.25rem;
+  line-height: 6.25rem;
+  color: #666;
+}
+#event-signup .event-signup .event-enter {
+  background: #fff;
+  padding: 0;
+}
+#event-signup .event-signup .event-enter p {
+  padding-left: .875rem;
+  font-size: .9375rem;
+  color: #333030;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  border-bottom: .0625rem solid #F2F2F2;
+}
+#event-signup .event-signup .event-enter .event-formdata {
+  padding-left: .875rem;
+}
+#event-signup .event-signup .event-enter .event-formdata .form-input {
+  border-bottom: .0625rem solid #F2F2F2;
+  height: 3.25rem;
+  padding-right: 1rem;
+}
+#event-signup .event-signup .event-enter .event-formdata .form-input > span {
+  padding-right: .625rem;
+  font-size: 1.0625rem;
+  color: #333333;
+}
+#event-signup .event-signup .event-enter .event-formdata .form-input .form-inp {
+  flex: 1;
+}
+#event-signup .event-signup .event-enter .event-formdata .form-input .form-inp input {
+  width: 15.9375rem;
+  border: none;
+  height: 1.5rem;
+  line-height: 1.5rem;
+}
+#event-signup .event-signup .event-enter .event-formdata .form-input:last-child {
+  border-bottom: none;
+}
+#event-signup .event-signup .event-enter .event-formdata .form-sex > div span {
+  color: #999999;
+}
+#event-signup .event-signup .event-enter .event-formdata .event-realname {
+  height: 2.6875rem;
+  color: #007AFF;
+  border-bottom: 1px solid #f2f2f2;
+  line-height: 2.6875rem;
+}
+#event-signup .event-signup .event-submit {
+  padding-top: 5.25rem;
+}
+#event-signup .event-signup .event-submit .button {
+  margin-top: .625rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+#event-signup .event-signup .event-submit .button .van-button {
+  width: 21.4375rem;
+  height: 2.9375rem;
+}

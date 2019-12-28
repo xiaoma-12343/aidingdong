@@ -1,0 +1,79 @@
+#openvip .head-back .head-title {
+  font-weight: 400;
+}
+#openvip .openvip {
+  margin-top: 2.75rem;
+  border-top: .3125rem solid #eee;
+}
+#openvip .openvip .howMoney {
+  padding: 1.25rem .875rem;
+  border-bottom: .625rem solid #eee;
+}
+#openvip .openvip .howMoney li {
+  border: .0625rem solid #E3B7AE;
+  width: 21.6875rem;
+  height: 4.0625rem;
+  padding: 0 1rem;
+  margin-bottom: .9375rem;
+  border-radius: .1875rem;
+}
+#openvip .openvip .howMoney li > div {
+  font-size: 1rem;
+}
+#openvip .openvip .howMoney li > div span {
+  color: #666;
+  font-size: .75rem;
+}
+#openvip .openvip .howMoney li > p {
+  color: #F74B33;
+}
+#openvip .openvip .howMoney li > p span {
+  font-size: 1.375rem;
+}
+#openvip .openvip .howMoney .active {
+  background: #E3B7AE;
+}
+#openvip .openvip .selectpay {
+  padding: 1.25rem .875rem 0;
+}
+#openvip .openvip .selectpay > P {
+  margin-bottom: 1.375rem;
+}
+#openvip .openvip .selectpay .pay li .pays {
+  font-size: .875rem;
+}
+#openvip .openvip .selectpay .pay li .pays img {
+  margin-right: .875rem;
+}
+#openvip .openvip .selectpay .pay li .icon-select {
+  width: .875rem;
+  height: .875rem;
+  border-radius: 50%;
+  position: relative;
+  border: .0625rem solid #666;
+}
+#openvip .openvip .selectpay .pay li .icon-select .icon-dui {
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 39%;
+  transform: translate(-50%, -50%);
+}
+#openvip .openvip .selectpay .pay li .active {
+  background: #F64A33;
+  border: none;
+}
+#openvip .openvip .submit {
+  width: 21.6875rem;
+  height: 2.9375rem;
+  background: #0EAF0A;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 3.5625rem;
+  text-align: center;
+  line-height: 2.9375rem;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: .125rem;
+}

@@ -1,0 +1,110 @@
+#topic {
+  height: 100%;
+}
+#topic .head-back .head-right {
+  color: #0EAF0A;
+  font-size: .875rem;
+}
+#topic .topic {
+  height: 100%;
+  padding-top: 2.75rem;
+}
+#topic .topic .topic-left {
+  width: 4.6875rem;
+  padding-top: 1.25rem;
+  border-right: 1px solid #eee;
+  overflow-y: auto;
+  flex-shrink: 0;
+}
+#topic .topic .topic-left li {
+  text-align: center;
+  height: 10%;
+  font-size: .9375rem;
+  color: #999999;
+  position: relative;
+}
+#topic .topic .topic-left .active {
+  color: #333333;
+  font-weight: 600;
+}
+#topic .topic .topic-left .active::after {
+  content: "";
+  display: block;
+  height: 1.9375rem;
+  width: .25rem;
+  border-radius: .125rem;
+  background: #0EAF0A;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+#topic .topic .topic-right {
+  width: 18.75rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#topic .topic .topic-right li {
+  padding: 14px;
+}
+#topic .topic .topic-right li > div {
+  flex-shrink: 0;
+}
+#topic .topic .topic-right li > div:first-child {
+  width: 5.625rem;
+  height: 5.625rem;
+  border-radius: .375rem;
+  margin-right: .5625rem;
+}
+#topic .topic .topic-right li > div:first-child img {
+  width: 100%;
+  border-radius: .375rem;
+}
+#topic .topic .topic-right li > div:last-child {
+  flex-direction: column;
+}
+#topic .topic .topic-right li > div:last-child p {
+  width: 11.25rem;
+  color: #333333;
+  font-weight: 600;
+}
+#topic .topic .topic-right li > div:last-child > div {
+  width: 11.375rem;
+}
+#topic .topic .topic-right li > div:last-child > div p {
+  font-size: .625rem;
+  color: #999999;
+  font-weight: 400;
+}
+#topic .topic .topic-right li > div:last-child > div div {
+  width: 3rem;
+  height: 1.375rem;
+  border-radius: .6875rem;
+  border: 1px solid #0EAF0A;
+  text-align: center;
+  line-height: 1.375rem;
+  font-size: .75rem;
+  color: #0EAF0A;
+  flex-shrink: 0;
+}
+#topic .topic .topic-right li > div:last-child > div div:last-child {
+  background: #F1F1F2;
+  border: none;
+}
+#topic .topic .topic-send {
+  position: fixed;
+  width: 4.25rem;
+  height: 4.25rem;
+  border-radius: 50%;
+  right: .375rem;
+  background: #05AE17;
+  bottom: 3.375rem;
+}
+#topic .topic .topic-send div {
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+#topic .topic .topic-send div p {
+  font-size: 1.25rem;
+}

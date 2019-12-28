@@ -1,0 +1,124 @@
+#my-pages .head-back {
+  background: transparent;
+  border: none;
+}
+#my-pages .my-pages .topbgc {
+  height: 6.9375rem;
+  background: rgba(0, 0, 0, 0.53);
+  overflow: hidden;
+  position: relative;
+}
+#my-pages .my-pages .topbgc img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+#my-pages .my-pages .users-info {
+  padding: 0 .875rem;
+  height: 50px;
+}
+#my-pages .my-pages .users-info img {
+  width: 3.75rem;
+  height: 3.75rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+  margin-right: .625rem;
+  position: relative;
+  z-index: 3;
+}
+#my-pages .my-pages .users-info .headinfo {
+  flex-shrink: 0;
+  font-size: .75rem;
+  color: #5C5C5C;
+}
+#my-pages .my-pages .users-info .headinfo p {
+  font-weight: bold;
+  color: #312F32;
+  font-size: 1.0625rem;
+  margin-bottom: .5rem;
+}
+#my-pages .my-pages .users-info .guanzhu {
+  padding: 0 .3125rem;
+  height: 1.375rem;
+  background: #0EAF0A;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .8125rem;
+  border-radius: .75rem;
+}
+#my-pages .my-pages .dataNum,
+#my-pages .my-pages .zpDataNum {
+  padding: .6875rem 7.3125rem .6875rem 2.125rem;
+}
+#my-pages .my-pages .dataNum li,
+#my-pages .my-pages .zpDataNum li {
+  font-size: .875rem;
+  color: #9B9B9B;
+}
+#my-pages .my-pages .dataNum li span:last-child,
+#my-pages .my-pages .zpDataNum li span:last-child {
+  color: #312F32;
+  font-weight: bold;
+  margin-left: .3125rem;
+}
+#my-pages .my-pages .send {
+  color: #333;
+  width: 100%;
+  border-top: .3125rem solid #eee;
+  height: 3.875rem;
+  font-size: .875rem;
+}
+#my-pages .my-pages .send .icon-bianji1 {
+  color: #0EAF0A;
+  margin-right: .625rem;
+  font-size: 1.25rem;
+}
+#my-pages .my-pages .zpDataNum {
+  padding: 0 3.0625rem;
+}
+#my-pages .my-pages .zpDataNum li {
+  position: relative;
+}
+#my-pages .my-pages .zpDataNum .active::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1.375rem;
+  height: .1875rem;
+  border-radius: .09375rem;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -0.4375rem;
+  background: #0EAF0A;
+}
+#my-pages .my-pages .zuopinlist {
+  margin-top: 1.25rem;
+  padding: 0 .875rem 0;
+}
+#my-pages .my-pages .zuopinlist li {
+  width: 10.5rem;
+  height: 10.5rem;
+  margin-bottom: .75rem;
+  border-radius: .375rem;
+  position: relative;
+  overflow: hidden;
+}
+#my-pages .my-pages .zuopinlist li > img {
+  width: 100%;
+  height: 100%;
+}
+#my-pages .my-pages .zuopinlist li > div {
+  font-size: .75rem;
+  color: #fff;
+  position: absolute;
+  bottom: .625rem;
+  left: .6875rem;
+}
+#my-pages .my-pages .zuopinlist li > div img {
+  width: 1.375rem;
+  height: 1.375rem;
+  border-radius: 50%;
+  margin-right: .25rem;
+}
